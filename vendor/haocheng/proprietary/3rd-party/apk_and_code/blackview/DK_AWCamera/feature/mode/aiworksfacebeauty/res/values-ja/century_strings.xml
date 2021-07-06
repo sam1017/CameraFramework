@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<string name="century_facebeauty_onekey">ワンタップ変身</string>
+	<string name="century_facebeauty_buffing">バフ</string>
+	<string name="century_facebeauty_whitening">ホワイトニング</string>
+    <string name="century_facebeauty_ruddy">血色の良い</string>
+	<string name="century_facebeauty_slimming">痩身</string>
+
+</resources>

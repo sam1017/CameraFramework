@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/more_mode_title_bg_color" />
+    <corners android:radius="24dp" />
+    <padding android:left="17dp"
+        android:top="6dp"
+        android:right="16dp"
+        android:bottom="6.34dp"/>
+</shape>

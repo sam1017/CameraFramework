@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="camera_label">"Камера"</string>
+    <string name="video_camera_label">"Відеокамера"</string>
+    <string name="accessibility_shutter">"Кнопка \"Витримка\""</string>
+    <string name="accessibility_thumbnail">"Останні фото"</string>
+    <string name="accessibility_mode">Режим камери</string>
+    <string name="accessibility_setting">Налаштування</string>
+    <string name="setting_title">"Налаштування"</string>
+    <string name="mode_fragment_title">Режими</string>
+    <string name="normal_mode_title">"Нормальний"</string>
+    <string name="saving_dialog_default_string">збереження...</string>
+    <string name="shutter_type_photo">"Зображення"</string>
+    <string name="shutter_type_video">"Відео"</string>
+    <string name="video_recording_not_available">Будь ласка, зупиніть інші застосунки запису перед користуванням відеокамерою.</string>
+    <string name="video_bad_performance_auto_stop">"Мало пам'яті, автозупинка запису."</string>
+    <string name="video_bad_performance_drop_quality">"Мало пам'яті, автозміна якості."</string>
+    <string name="video_recording_error">Помилка під час запису!</string>
+    <string name="video_reach_size_limit">"Досягн. макс. розмір."</string>
+    <string name="can_not_use_storage">Недоступна SD Card</string>
+    <string name="storage_full">"Пам'ять за замовчуванням заповнена. Звільніть місце або керуйте опціями пам'яті в налаштуваннях"</string>
+    <string name="pref_thermal_dialog_title">Попередження</string>
+    <string name="pref_thermal_dialog_content_launch">Температурапристроюнадтовисока.Користуйтесякамероюпізніше.</string>
+    <string name="pref_thermal_dialog_content">Температурапристроюнадтовисока,камераавтоматичновимкнетьсячерез30сек..Спробуйтескористуватисянеюпізніше.</string>
+    <string name="pref_thermal_preview_toast">Торкніться екрану, щоб продовжити.</string>
+    <!-- start, wangsenhao, for macro lens camera toast, 2020.04.07 -->
+    <string name="macro_lens_camera_toast">будь ласка, зробіть макрофотографії на відстані 4 см.</string>
+    <!-- end, wangsenhao, for macro lens camera toast, 2020.04.07 -->
+    <string name="optimize_picture" translatable="false">Відбувається оптимізація якості зображення</string>
+    <string name="dialog_ok">"Підтвердити"</string>
+    <string name="more_mode_name">Більше</string>
+    <string name="camera_disabled">Через обмеження політики безпеки камеру вимкнено.</string>
+    <string name="cannot_connect_camera_new">"Неможливо здійснити з'єднання з фотоапаратом. Переконайтеся, що ви закрили додатки, що користуються камерою або фотоспалахом."</string>
+
+<!--bv sunyue add for Translation start 20201109-->
+<string name="global_label">Універсальний</string>
+    <string name="advanced_label">Покращений</string>
+    <string name="mirror_summary">Діє лише за зйомки фронтальною камерою </string>
+    <string name="restore_settings">Відновити налаштування за замовчуванням </string>
+    <string name="restore_settings_message">Відновити значення налаштувань камери за замовчуванням?</string>
+    <string name="detail_title">"Деталі"</string>
+    <string name="night_title">Нічний режим</string>
+    <string name="video_title">Відео</string>
+    <string name="photo_title">Фото</string>
+    <string name="beauty_title">Корекція</string>
+    <string name="prof_title">Професійний </string>
+    <string name="w4800_title">48 млн.</string>
+    <string name="mono_title">Чорно-білий</string>
+    <string name="bokeh_title">Портрет </string>
+    <string name="bokehcolor_title">Кольоровий портрет на чорно-білому фоні</string>
+    <string name="biprotrait_title">Панорама</string>
+    <string name="night_summary">Завдяки накладанню багатьох кадрів, шумозаглушенню, HDR за низького рівня освітлення та іншій різноманітній обробці, фото, зняті вночі, стають більш чіткими та яскравими. </string>
+    <string name="video_summary">Камера автоматично відкоригує експозицію та колір, записане відео стане більш живим</string>
+    <string name="photo_summary">Камера автоматично відкоригує експозицію та колір, щоб ви отримали найкращі фото </string>
+    <string name="beauty_summary">Під час зйомки можна вирівняти тон шкіри, висвітлити його, зменшити обличчя та застосувати інші різноманітні ефекти для покращення зовнішності. </string>
+    <string name="prof_summary">Підтримує ручне регулювання чутливості, витримки, способу фокусування та балансу білого, задовольняє потреби, пов\'язанні з урізноманітненням та персоналізацією фото. </string>
+    <string name="w4800_summary">Більш висока розподільна здатність та більш різке зображення (у цьому режимі неможливо використовувати HDR та нічну зйомку). </string>
+    <string name="mono_summary">Ви отримаєте справжні, живі чорно-білі фото. </string>
+    <string name="bokeh_summary">Розмиття фону під час зйомки людей. </string>
+    <string name="bokehcolor_summary">Під час зйомки фото можна ідентифікувати людей, вони яскраво виділятимуться на чорно-білому фоні. </string>
+    <string name="biprotrait_summary">Ручне регулювання чутливості ISO, витримки, компенсації експозиції, способу фокусування та балансу білого задовольняє потреби, пов\'язанні з урізноманітненням та персоналізацією фото. </string>
+    <string name="ais_summary">Дійсно лише тоді, коли одночасно вимкнені HDR та спалах</string>
+    <string name="slowmotion_mode_summary">Камера може знімати високошвидкісне відео зі швидкістю 120 кадрів в секунду, після чого відтворювати його зі швидкістю 30 кадрів в секунду, уповільнюючи рухи в 4 рази, і сповільнюючи найкращі моменти.</string>
+<!--bv sunyue add for Translation end 20201109-->
+</resources>

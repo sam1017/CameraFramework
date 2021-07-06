@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="demo_fb_title">Demo FB</string>
+    <string name="demo_fb_content_description" translatable="false">@string/demo_fb_title</string>
+    <string name="demo_fb_on">ON</string>
+    <string name="demo_fb_off">OFF</string>
+    <string name="demo_fb_on_and_chang_roi">ON AND CHANGE ROI</string>
+</resources>

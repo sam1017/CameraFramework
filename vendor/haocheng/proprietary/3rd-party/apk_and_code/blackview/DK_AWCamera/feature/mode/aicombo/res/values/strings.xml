@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="aibeauty_mode_name">AI Beauty</string>
+    <string name="aibokeh_mode_name">AI Bokeh</string>
+    <string name="aicolor_mode_name">AI Color</string>
+    <string name="aileggy_mode_name">AI Leggy</string>
+    <string name="aislimming_mode_name">AI Slimming</string>
+    <string name="pref_aibeauty_whiteness_title">Whiteness</string>
+    <string name="pref_aibeauty_bright_eyes_title">BigEye</string>
+    <string name="pref_aibeauty_slim_face_title">SmallCheek</string>
+    <string name="pref_aibeauty_smooth_title">Smooth</string>
+    <string name="pref_aibeauty_beauty_all_title">All</string>
+</resources>

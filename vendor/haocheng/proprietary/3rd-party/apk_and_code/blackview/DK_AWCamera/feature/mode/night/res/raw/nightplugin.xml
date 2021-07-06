@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin
+    id="nightplugin"
+    name="night"
+    version="1">
+
+    <extension
+        id="night"
+        name="night extension"
+        class="com.mediatek.camera.feature.mode.night.NightEntry"
+        plugin-id="cameraplugin"
+        point-id="FeatureEntryBase">
+    </extension>
+</plugin>

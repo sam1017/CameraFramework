@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mediatek.camera.common.widget.RotateLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bokeh_rotate_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/bokeh_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:shadowColor="#BB000000">
+
+        <TextView
+            android:id="@+id/bokeh_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bokeh_bottom_controls"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="4dp"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#FFFFFFFF"
+            android:visibility="gone"></TextView>
+        <!--bv wuyonglin modify for adjust BrokehMode view 20200227 start-->
+        <RelativeLayout
+            android:id="@+id/bokeh_bottom_controls"
+            android:layout_width="330dp"
+            android:layout_height="38dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/hct_shutter_layout_height"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/small_aperture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:visibility="gone"
+                android:src="@drawable/ic_bokeh_small_aperture" />
+            <!--bv wuyonglin modify for bug793 brokehMode view SeekBar height to 38dp 20200512 start-->
+            <SeekBar
+                android:id="@+id/bokeh_seekbar"
+                android:layout_width="312dp"
+                android:layout_height="38dp"
+                android:maxHeight="1.5dp"
+                android:minHeight="1.5dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:max="100"
+                android:progress="1"
+                android:progressDrawable="@drawable/bokeh_seekbar_progress1"
+                android:thumb="@drawable/century_bokeh_seekbar_thumb"
+                android:progressTint="#FFFFFFFF"
+                android:thumbTint="#FFFFFFFF" />
+            <!--bv wuyonglin modify for bug793 brokehMode view SeekBar height to 38dp 20200512 end-->
+
+            <ImageView
+                android:id="@+id/big_aperture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:src="@drawable/ic_bokeh_large_aperture" />
+        </RelativeLayout>
+        <!--bv wuyonglin modify for adjust BrokehMode view 20200227 end-->
+    </RelativeLayout>
+
+</com.mediatek.camera.common.widget.RotateLayout>

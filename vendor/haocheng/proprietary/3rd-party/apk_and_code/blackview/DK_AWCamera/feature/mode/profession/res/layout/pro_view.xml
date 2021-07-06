@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pro_main_layout"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/pro_tool_bar"
+        android:layout_width="@dimen/pro_tool_bar_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="235dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/ic_pro_toolbar_bg"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/pro_tool_wb"
+            style="@style/toolbartextview"
+            android:drawableTop="@drawable/camera_prosetting_big_wheel_t_wb"
+            android:text="@string/pro_mode_auto" />
+
+        <TextView
+            android:id="@+id/pro_tool_iso"
+            style="@style/toolbartextview"
+            android:drawableTop="@drawable/camera_prosetting_big_wheel_t_iso"
+            android:text="@string/pro_mode_auto" />
+
+        <TextView
+            android:id="@+id/pro_tool_exp"
+            style="@style/toolbartextview"
+            android:drawableTop="@drawable/camera_prosetting_big_wheel_t_exposure"
+            android:text="@string/pro_mode_auto" />
+        
+        <TextView
+            android:id="@+id/pro_tool_mf"
+            style="@style/toolbartextview"
+            android:drawableTop="@drawable/camera_prosetting_big_wheel_t_mf"
+            android:text="@string/pro_mode_auto"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/pro_tool_shutter"
+            style="@style/toolbartextview"
+            android:drawableTop="@drawable/camera_prosetting_big_wheel_t_shutter"
+            android:text="@string/pro_mode_auto" 
+            android:visibility="gone"/>
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+    </LinearLayout>
+
+    <com.mediatek.camera.feature.mode.pro.view.SeekArcFrameLayout xmlns:seekarc="http://schemas.android.com/apk/res/com.mediatek.camera"
+        android:id="@+id/pro_seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="220dp"
+        android:visibility="gone">
+
+        <com.mediatek.camera.feature.mode.pro.view.SeekArc
+            android:id="@+id/pro_seek_bar_wb"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/seekarc_height"
+            android:tag="wb"
+            seekarc:angleRange="54"
+            seekarc:attachText="false"
+            seekarc:reverse="true"
+            seekarc:text_color="@color/century_seek_tag_color"
+            seekarc:text_size="@dimen/century_seek_tag_text_size"
+            seekarc:thumb="@drawable/seek_arc_wb_thumb" />
+
+        <com.mediatek.camera.feature.mode.pro.view.SeekArc
+            android:id="@+id/pro_seek_bar_iso"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/seekarc_height"
+            android:layout_marginTop="65dp"
+            android:tag="iso"
+            seekarc:angleRange="54"
+            seekarc:attachText="true"
+            seekarc:reverse="true"
+            seekarc:text_color="@color/century_seek_tag_color"
+            seekarc:text_size="@dimen/century_seek_tag_text_size"
+            seekarc:thumb="@drawable/century_seek_arc_iso_selector" />
+        <com.mediatek.camera.feature.mode.pro.view.SeekArc
+            android:id="@+id/pro_seek_bar_exp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/seekarc_height"
+            android:layout_marginTop="130dp"
+            android:tag="exp"
+            seekarc:angleRange="54"
+            seekarc:attachText="true"
+            seekarc:reverse="true"
+            seekarc:max="6"
+            seekarc:text_color="@color/century_seek_tag_color"
+            seekarc:text_size="@dimen/century_seek_tag_text_size"
+            seekarc:thumb="@drawable/century_seek_arc_exp_selector" />
+        <com.mediatek.camera.feature.mode.pro.view.SeekArc
+            android:id="@+id/pro_seek_bar_mf"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/seekarc_height"
+            android:layout_marginTop="195dp"
+            android:tag="mf"
+            seekarc:angleRange="54"
+            seekarc:attachText="true"
+            seekarc:reverse="true"
+            seekarc:text_color="@color/century_seek_tag_color"
+            seekarc:text_size="@dimen/century_seek_tag_text_size"
+            seekarc:thumb="@drawable/century_seek_arc_mf_selector" />
+
+        <com.mediatek.camera.feature.mode.pro.view.SeekArc
+            android:id="@+id/pro_seek_bar_shutter"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/seekarc_height"
+            android:layout_marginTop="260dp"
+            android:tag="shutter"
+            seekarc:angleRange="54"
+            seekarc:attachText="true"
+            seekarc:reverse="true"
+            seekarc:text_color="@color/century_seek_tag_color"
+            seekarc:text_size="@dimen/century_seek_tag_text_size"
+            seekarc:thumb="@drawable/century_seek_arc_shutter_selector" />
+    </com.mediatek.camera.feature.mode.pro.view.SeekArcFrameLayout>
+
+    <LinearLayout
+        android:id="@+id/pro_tool_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/pro_tool_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/pro_mode_auto"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/pro_tool_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/pro_mode_auto"
+            android:textColor="@android:color/white"
+            android:textSize="22dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

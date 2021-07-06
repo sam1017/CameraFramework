@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/continuous_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:splitMotionEvents="false">
+
+        <!--bv wuyonglin modify for continuous shot view show at same position with zoom view 20200604 start -->
+    <com.mediatek.camera.common.widget.RotateStrokeTextView
+        android:id="@+id/shot_num"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/camera_zoom_view_margin_top"
+        android:maxLines="1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFFFF"
+        android:background="@drawable/btn_bg_selector"
+        android:textSize="@dimen/hct_shutter_title_size"
+        android:enabled="false"
+        android:clickable="false" />
+        <!--bv wuyonglin modify for continuous shot view show at same position with zoom view 20200604 start -->
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/DK_AWCamera.iml" filepath="$PROJECT_DIR$/.idea/DK_AWCamera.iml" group="DK_AWCamera" />
+      <module fileurl="file://$PROJECT_DIR$/camerapostalgo/camerapostalgo.iml" filepath="$PROJECT_DIR$/camerapostalgo/camerapostalgo.iml" group="DK_AWCamera/camerapostalgo" />
+      <module fileurl="file://$PROJECT_DIR$/host/host.iml" filepath="$PROJECT_DIR$/host/host.iml" group="DK_AWCamera/host" />
+      <module fileurl="file://$PROJECT_DIR$/camerapostalgo/interface/interface.iml" filepath="$PROJECT_DIR$/camerapostalgo/interface/interface.iml" group="DK_AWCamera/camerapostalgo/interface" />
+      <module fileurl="file://$PROJECT_DIR$/camerapostalgo/interface/java/java.iml" filepath="$PROJECT_DIR$/camerapostalgo/interface/java/java.iml" group="DK_AWCamera/camerapostalgo/interface/java" />
+    </modules>
+  </component>
+</project>

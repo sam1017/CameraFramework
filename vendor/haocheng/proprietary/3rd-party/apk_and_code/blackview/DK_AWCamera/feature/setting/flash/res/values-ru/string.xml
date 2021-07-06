@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="flash_low_battery_warning">молния - инвалидами в результате низких аккумулятор</string>
+
+</resources>

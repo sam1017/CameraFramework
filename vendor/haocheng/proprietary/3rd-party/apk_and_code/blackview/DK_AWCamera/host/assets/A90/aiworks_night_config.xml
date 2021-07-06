@@ -1,0 +1,198 @@
+<Config>
+    <ExpConfig id="0">
+        <!-- 项目识别码 -->
+        <productName>"Blaceview_a90"</productName>
+
+        <!-- 曝光参数限定：
+            曝光时间，ISO,数字增益：adb shell dumpsys media.camera获取，可能和实际的不一致所以还是以具体为准。示例：
+            android.sensor.info.exposureTimeRange (f0003): int64[2]
+              [16534 400000000 ]
+            android.sensor.info.sensitivityRange (f0001): int32[2]
+              [100 1600 ]
+            android.control.postRawSensitivityBoostRange (10027): int32[2]
+              [100 3199 ]
+        -->
+        <maxExp>140000000</maxExp>
+        <minExp>100000</minExp>
+        <maxSensitity>6400</maxSensitity>
+        <minSensitity>100</minSensitity>
+        <maxDgain>120</maxDgain>
+        <minDgain>100</minDgain>
+
+        <!-- smooth曝光策略
+            "Ytarget":一幅画面的目标亮度，LOWLIGHT算法用，计算preview平均亮度，小于Ytarget把亮度提到Ytarget，大于Ytarget认为足够亮不需要提亮操作
+            "lowLightMeanYthr":LOWLIGHT_HDR算法提亮用，低亮部分平均亮度的threshold，统计得出低亮的平均亮度
+            "lowLighYtarget":LOWLIGHT_HDR算法提亮用，表示要把低亮的平均亮度提到此目标亮度，小于lowLighYtarget把亮度提到lowLighYtarget，大于lowLighYtarget认为足够亮不需要提亮操作
+            "highLightMeanYthr":LOWLIGHT_HDR算法欠曝用，高亮部分平均亮度的threshold，统计得出高亮部分的平均亮度
+            "highLighYtarget":LOWLIGHT_HDR算法欠曝用，表示要把高亮降到此目标亮度
+        -->
+        <Ytarget>90</Ytarget>
+        <lowLightMeanYthr>80</lowLightMeanYthr>
+        <lowLighYtarget>70</lowLighYtarget>
+        <highLightMeanYthr>220</highLightMeanYthr>
+        <highLighYtarget>60</highLighYtarget>
+
+        <!--
+            histHighLightLevel/histLowLightLevel定义预览直方图高亮/低亮，并计算出高亮和低亮的占比，根据这两个占比走不同的算法
+            if (histHightlightPercent < histHightLightPercentAlgo && lowlightPercent > histLowLightPercentAlgo) {
+                histAlgo = CaptureType.LOWLIGHT;
+            } else if (histHightlight255Percent < histHightLight255PercentAlgo) {
+                histAlgo = CaptureType.LOWLIGHT;
+            } else if (mMeanHistY > Ytarget && histHightlight255Percent < highLight255RealPercentAlgo) {
+                histAlgo = CaptureType.LOWLIGHT;
+            } else {
+                histAlgo = CaptureType.LOWLIGHT_HDR;
+            }
+        -->
+        <histHighLightLevel>220</histHighLightLevel>
+        <histLowLightLevel>70</histLowLightLevel>
+        <histHightLightPercentAlgo>0.001</histHightLightPercentAlgo>
+        <histLowLightPercentAlgo>0.90</histLowLightPercentAlgo>
+        <histHightLight255PercentAlgo>0.0005</histHightLight255PercentAlgo>
+        <highLight255Thr>251</highLight255Thr>
+        <highLight255RealPercentAlgo>0.012</highLight255RealPercentAlgo>
+
+        <!-- 曝光策略
+            "HfpsBrightenTimes":高帧率场景基准提亮倍数
+            "LfpsBrightenTimes":低帧率场景基准提亮倍数
+            "minBrightenTimes":所有场景的最低提亮倍数
+            "brighten_rate":提亮倍数变化的曲率，值越大，较亮场景提亮的倍数越小
+            "darkenTimes": 欠曝的变暗基准倍数
+            "darken_rate": 欠曝倍数的变化曲率，值越大，高光平均亮度低的场景欠曝倍数越小
+            "ExpISO_ratio": 基础曝光时间和ISO的比例
+            "darkenExpISO_ratio": 欠曝时，倍数用来减少曝光和ISO的比例，如0.8，则曝光时间欠曝0.8倍数，ISO欠曝0.2倍数
+            "darkenMinISO":欠曝取图的最小ISO，区分于minSensitity，增加欠曝的可调空间
+            "Lfps_HightlightThr": 高光占比阈值，用于避免高光多的场景提亮过大
+            "Lfps_ExptimeThr": 判定高帧率和低帧率场景的曝光时间阈值
+            "balanceISPExp": 是否需要平衡ISP gain和曝光时间的极限值补充
+            "balanceISOExp": 是否需要平衡ISO和曝光时间的极限值补充
+            "dGainReduce": dGain按固定比例缩减，但不小于minDgain
+            "lowlightAdaptiveExpThredhold": Lowlight但高光占比超过该数值，采用曝光自适应
+            "lowlightAdaptiveExpTimes": Lowlight自适应曝光最高提亮倍数
+            "faceDarkTimes": 逆光场景人脸压暗参数
+        -->
+        <HfpsBrightenTimes>1.4</HfpsBrightenTimes>
+        <LfpsBrightenTimes>1.25</LfpsBrightenTimes>
+        <minBrightenTimes>1.25</minBrightenTimes>
+        <brighten_rate>0.6</brighten_rate>
+        <darkenTimes>4</darkenTimes>
+        <darken_rate>1.2</darken_rate>
+        <ExpISO_ratio>1.25</ExpISO_ratio>
+        <darkenExpISO_ratio>0.2</darkenExpISO_ratio>
+        <darkenMinISO>100</darkenMinISO>
+        <Lfps_HightlightThr>0.055</Lfps_HightlightThr>
+        <Lfps_ExptimeThr>42000000</Lfps_ExptimeThr>
+        <balanceISPExp>true</balanceISPExp>
+        <balanceISOExp>true</balanceISOExp>
+        <dGainReduce>1</dGainReduce>
+        <lowlightAdaptiveExpThredhold>-1</lowlightAdaptiveExpThredhold>
+        <lowlightAdaptiveExpTimes>2</lowlightAdaptiveExpTimes>
+        <faceDarkTimes>0.1</faceDarkTimes>
+
+        <!-- ISP 图像增强部分 -->
+        <noiseReductionMode>-1</noiseReductionMode>
+        <edgeMode>-1</edgeMode>
+        <sharpness>-1</sharpness>
+        <saturation>-1</saturation>
+        <contrast>-1</contrast>
+        <mfnr>1</mfnr>
+        <mfnr_minExp>0</mfnr_minExp>
+    </ExpConfig>
+    <!-- 夜景算法配置参数 -->
+    <!-- iso分段: 从小往大搜索，当前iso<=iso velue时，使用该分段的参数 -->
+    <!-- night_exposure_time: 1为标准提亮帧、-1为标准欠爆帧，默认首个提亮帧为baseIndex -->
+    <!-- night_exposure_iso: 1为标准提亮帧、-1为标准欠爆帧 -->
+    <!-- night_lnrLevel: chrom降噪强度，取值范围 1-10 -->
+    <!-- night_nrLevel:  luma降噪强度，取值范围 1-10 -->
+    <!-- night_tmoLevel: 亮度等级，取值范围 1-10 -->
+    <!-- night_ceLevel:  对比度强度，取值范围 0.0f-1.0f -->
+    <!-- night_spLevel:  锐化强度，取值范围 0.0f-1.0f -->
+    <NightParam id="0">
+        <night_iso value="600">
+            <night_exposure_time>-0.3;-0.8;1</night_exposure_time>
+            <night_exposure_iso>-0.1;-1.2;1</night_exposure_iso>
+            <night_ceLevel>0</night_ceLevel>
+            <night_lnrLevel>0</night_lnrLevel>
+            <night_nrLevel>0</night_nrLevel>
+            <night_spLevel>0.2</night_spLevel>
+            <night_tmoLevel>0</night_tmoLevel>
+        </night_iso>
+        <night_iso value="1000">
+            <night_exposure_time>-0.3;-0.8;1</night_exposure_time>
+            <night_exposure_iso>-0.1;-1.2;1</night_exposure_iso>
+            <night_ceLevel>0</night_ceLevel>
+            <night_lnrLevel>2</night_lnrLevel>
+            <night_nrLevel>0</night_nrLevel>
+            <night_spLevel>0.2</night_spLevel>
+            <night_tmoLevel>0</night_tmoLevel>
+        </night_iso>
+        <night_iso value="2800">
+            <night_exposure_time>-0.3;-0.8;1</night_exposure_time>
+            <night_exposure_iso>-0.1;-1.2;1</night_exposure_iso>
+            <night_ceLevel>0</night_ceLevel>
+            <night_lnrLevel>1</night_lnrLevel>
+            <night_nrLevel>0</night_nrLevel>
+            <night_spLevel>0.2</night_spLevel>
+            <night_tmoLevel>0</night_tmoLevel>
+        </night_iso>
+        <night_iso value="4000">
+            <night_exposure_time>-0.3;-0.8;0.95</night_exposure_time>
+            <night_exposure_iso>-0.1;-1.2;1</night_exposure_iso>
+            <night_ceLevel>0</night_ceLevel>
+            <night_lnrLevel>1</night_lnrLevel>
+            <night_nrLevel>0</night_nrLevel>
+            <night_spLevel>0.2</night_spLevel>
+            <night_tmoLevel>0</night_tmoLevel>
+        </night_iso>
+        <night_iso value="5000">
+            <night_exposure_time>-0.35;-0.8;0.9</night_exposure_time>
+            <night_exposure_iso>-0.1;-1.2;1</night_exposure_iso>
+            <night_ceLevel>0</night_ceLevel>
+            <night_lnrLevel>1</night_lnrLevel>
+            <night_nrLevel>0</night_nrLevel>
+            <night_spLevel>0.2</night_spLevel>
+            <night_tmoLevel>0</night_tmoLevel>
+        </night_iso>
+        <night_iso value="5500">
+            <night_exposure_time>-0.35;-0.8;1</night_exposure_time>
+            <night_exposure_iso>-0.1;-1.2;1</night_exposure_iso>
+            <night_ceLevel>0</night_ceLevel>
+            <night_lnrLevel>1</night_lnrLevel>
+            <night_nrLevel>0</night_nrLevel>
+            <night_spLevel>0.2</night_spLevel>
+            <night_tmoLevel>2</night_tmoLevel>
+        </night_iso>
+    </NightParam>
+    <CameraPreferences>
+        <key>night_camera_id_key</key>
+        <value>0</value>
+    </CameraPreferences>
+    <CameraPreferences>
+        <key>night_camera_operatingMode</key>
+        <value>0x8000</value>
+    </CameraPreferences>
+    <CameraPreferences>
+        <key>night_camera_photoSize_key</key>
+        <value>""</value>
+    </CameraPreferences>
+    <CameraPreferences>
+        <key>night_camera_photoForamt_key</key>
+        <value>35</value>
+    </CameraPreferences>
+    <CameraPreferences>
+        <key>TextureView_enable_key</key>
+        <value>on</value>
+    </CameraPreferences>
+    <CameraPreferences>
+        <key>PreviewReader_enable_key</key>
+        <value>off</value>
+    </CameraPreferences>
+    <CameraPreferences>
+        <key>night_camera_aeMeterMode_key</key>
+        <value>-1</value>
+    </CameraPreferences>
+    <CameraPreferences>
+        <key>night_camera_sceneMode_key</key>
+        <value>-1</value>
+    </CameraPreferences>
+</Config>

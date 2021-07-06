@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="demo_asd_title">Demo ASD</string>
+    <string name="demo_asd_content_description" translatable="false">@string/demo_asd_title</string>
+    <string name="demo_asd_on">On Record only</string>
+    <string name="demo_asd_off">OFF</string>
+</resources>

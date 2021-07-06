@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="century_facebeauty_buffing">Polissage</string>
+    <string name="century_facebeauty_ruddy">Teinte rose</string>
+    <string name="century_facebeauty_slimming">Minceur</string>
+    <string name="century_facebeauty_whitening">Blanchiment</string>
+    <string name="century_facebeauty_onekey">One-tap\nMakeover</string>
+    <string name="century_facebeauty_custom">Personnalisé</string>
+</resources>

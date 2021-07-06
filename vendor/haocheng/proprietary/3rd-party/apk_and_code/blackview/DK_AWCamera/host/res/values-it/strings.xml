@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="camera_label">"Fotocamera"</string>
+    <string name="video_camera_label">"Videocamera"</string>
+    <string name="accessibility_shutter">"Pulsante di scatto"</string>
+    <string name="accessibility_thumbnail">"Foto più recente"</string>
+    <string name="accessibility_mode">Modalità fotocamera </string>
+    <string name="accessibility_setting">"Impostazioni"</string>
+    <string name="setting_title">"Impostazioni"</string>
+    <string name="mode_fragment_title">Modalità</string>
+    <string name="normal_mode_title">"Normale"</string>
+    <string name="saving_dialog_default_string">Salvataggio in corso...</string>
+    <string name="shutter_type_photo">"Immagine"</string>
+    <string name="shutter_type_video">"Video"</string>
+    <string name="video_recording_not_available">Arrestare altre applicazioni di registrazione prima di usare la videocamera.</string>
+    <string name="video_bad_performance_auto_stop">Memoria scarsa. Arresto automatico della registrazione.</string>
+    <string name="video_bad_performance_drop_quality">Memoria scarsa. Modifica automatica della qualità.</string>
+    <string name="video_recording_error">Errore durante la registrazione!</string>
+    <string name="video_reach_size_limit">"Limite di dimensione raggiunto."</string>
+    <string name="can_not_use_storage">Scheda SD non disponibile</string>
+    <string name="storage_full">La memoria predefinita è esaurita, liberare dello spazio oppure gestire le opzioni di memoria nelle impostazioni</string>
+    <string name="pref_thermal_dialog_title">Avviso</string>
+    <string name="pref_thermal_dialog_content_launch">Latemperaturadeldispositivoètroppoalta,utilizzarelafotocamerainunsecondotempo.</string>
+    <string name="pref_thermal_dialog_content">Latemperaturadeldispositivoètroppoalta,entro30secondisaràeseguital’uscitaautomaticadallafotocamera.Riprovareinunsecondotempo.</string>
+    <string name="pref_thermal_preview_toast">Toccare lo schermo per continuare.</string>
+    <!-- start, wangsenhao, for macro lens camera toast, 2020.04.07 -->
+    <string name="macro_lens_camera_toast">si prega di scattare le foto macro entro 4 cm di distanza.</string>
+    <!-- end, wangsenhao, for macro lens camera toast, 2020.04.07 -->
+    <string name="hct_bokeh_tip">"Per garantire la riuscita delle foto, assicurarsi che l'obiettivo non sia bloccato"</string>
+    <string name="optimize_picture" translatable="false">"Sta ottimizzando la qualità dell'immagine"</string>
+    <string name="dialog_ok">"Determinare"</string>
+    <string name="more_mode_name">Altro</string>
+    <string name="camera_disabled">A causa delle restrizioni della politica di sicurezza, la telecamera è stata disattivata".</string>
+    <string name="cannot_connect_camera_new">"Non può essere collegato alla telecamera. Assicurarsi che l'applicazione che utilizzerebbe la fotocamera o il flash sia chiusa."</string>
+
+<!--bv sunyue add for Translation start 20201109-->
+<string name="global_label">universale</string>
+    <string name="advanced_label">alto grado</string>
+    <string name="mirror_summary">Funziona solo negli scatti frontali</string>
+    <string name="restore_settings">Ripristinare le impostazioni predefinite</string>
+    <string name="restore_settings_message">Ripristinate le impostazioni della telecamera ai valori di default?</string>
+    <string name="detail_title">Dettagli</string>
+    <string name="night_title">scena notturna</string>
+    <string name="video_title">video</string>
+    <string name="photo_title">foto</string>
+    <string name="beauty_title">bellezza</string>
+    <string name="prof_title">specialità</string>
+    <string name="w4800_title">48 milioni</string>
+    <string name="mono_title">bianco e nero</string>
+    <string name="bokeh_title">Immagini</string>
+    <string name="bokehcolor_title">Immagini per il colore</string>
+    <string name="biprotrait_title">vVsta panoramica</string>
+    <string name="night_summary">Dopo il compositing multi-frame, la riduzione del rumore, l\'HDR a bassa luminosità e altre elaborazioni, le foto notturne diventano più pure e luminose.</string>
+    <string name="video_summary">La telecamera regola automaticamente l\'esposizione e il colore, rendendo la registrazione dei video più vivida!</string>
+    <string name="photo_summary">La fotocamera regola automaticamente l\'esposizione e il colore per scattare le migliori foto possibili.</string>
+    <string name="beauty_summary">Il ritratto può essere sbucciato, sbiancato, sbiancato, snellito e altri effetti di bellezza durante le riprese.</string>
+    <string name="prof_summary">Supporta la regolazione manuale della sensibilità, della velocità dell\'otturatore, della modalità di messa a fuoco e del bilanciamento del bianco per soddisfare le diverse e personalizzate esigenze di ripresa.</string>
+    <string name="w4800_summary">Risoluzione più alta, immagini più nitide (HDR e visione notturna non possono essere utilizzate in questa modalità).</string>
+    <string name="mono_summary">Scatta effetti fotografici realistici e naturali in bianco e nero.</string>
+    <string name="bokeh_summary">Bokeh lo sfondo quando si spara alla gente.</string>
+    <string name="bokehcolor_summary">Riconoscimento del ritratto in tempo reale quando si scattano le foto, con uno sfondo in bianco e nero che mette in risalto il colore del ritratto.</string>
+    <string name="biprotrait_summary">Supporta la regolazione manuale della sensibilità ISO, dell\'otturatore, della compensazione dell\'esposizione, della modalità di messa a fuoco e del bilanciamento del bianco per soddisfare le diverse e personalizzate esigenze di ripresa.</string>
+    <string name="ais_summary">Efficace solo quando il flash e l\'HDR sono disattivati contemporaneamente</string>
+    <string name="slowmotion_mode_summary">La fotocamera può riprendere video alta velocità a 120 fps,e riprodurlo a 30 fps,rallentando i momenti meravigliosi fino a 4 volte.</string>
+<!--bv sunyue add for Translation end 20201109-->
+
+</resources>

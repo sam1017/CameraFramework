@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/triple_switch_horizontal_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    > 
+    <com.mediatek.camera.ui.shutter.TripleSwitchHorizontalScrollView
+        android:id="@+id/triple_switch_horizontal_scroller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="@dimen/triple_switch_horizontal_scroller_padding"
+        android:layout_marginBottom="@dimen/camera_shutter_bar_height"/>
+
+    <com.mediatek.camera.common.widget.RotateStrokeTextView
+		android:id="@+id/triple_switch_select"
+        android:layout_above="@id/triple_switch_horizontal_scroller" 
+		android:layout_width="@dimen/sliding_zoom_view_height"
+		android:layout_height="@dimen/sliding_zoom_view_height"
+		android:textColor="@android:color/white"
+        android:layout_marginBottom="@dimen/triple_switch_select_margin_bottom"
+		android:fontFamily="oppo-sans-h"
+		android:textSize="@dimen/sliding_zoom_text_size"
+        android:visibility="gone"
+		android:layout_alignParentBottom="true"
+		android:background="@drawable/triple_button_selected_background"
+		android:gravity="center"/>
+</RelativeLayout>

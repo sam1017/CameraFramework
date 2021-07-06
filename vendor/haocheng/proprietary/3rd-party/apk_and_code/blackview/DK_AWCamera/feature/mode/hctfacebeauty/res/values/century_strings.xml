@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="century_photo_mode_title">Photo</string>
+    <string name="century_video_mode_title">Video</string>
+    <string name="century_facebeauty_mode_title">FaceBeauty</string>
+    <string name="century_bokeh_mode_title">Blur</string>
+    <string name="century_panorama_mode_title">Panorama</string>
+	<string name="century_hdr_mode_title">HDR</string>
+	<string name="century_night_mode_title">Night</string>
+	<string name="century_super_mode_title">Super</string>
+	<string name="century_doc_mode_title">DOC</string>
+	<string name="century_pro_mode_title">PRO</string>
+	<string name="century_slow_mode_title">Slow</string>
+	<string name="century_fast_mode_title">Fast</string>
+	
+	<string name="century_mono_mode_title">Mono</string>
+	<string name="century_pip_mode_title">PIP</string>
+	<string name="century_no_mode">No Mode</string>
+        <string name="roation_action">"Please turn the phone"</string>
+        <string name="roation_purpose">"turn the phone to make front camera at the top to shoot the more beautiful you"</string>
+        <string name="roation_button">"Got it"</string>
+	<string name="century_facebeauty_buffing">Buffing</string>
+	<string name="century_facebeauty_eye">Enlarging</string>
+    <string name="century_facebeauty_ruddy">Ruddy</string>
+	<string name="century_facebeauty_slimming">Slimming</string>
+	<string name="century_facebeauty_whitening">Whitening</string>
+	<string name="century_facebeauty_onekey">One-tap\nMakeover</string>
+	<string name="century_facebeauty_custom">Custom</string>
+	<drawable name="century_black_color">#000000</drawable>
+    <string name="century_switch_to_blur">Blur</string>
+    <string name="century_switch_to_dualcam">Dual Camera</string>
+
+	    <declare-styleable name="ApertureView">
+        <attr name="blade_color" format="color" />
+        <attr name="background_color" format="color" />
+        <attr name="blade_space" format="dimension" />
+    </declare-styleable>
+    <color name="century_seekbar_progress_color">#FF12B3B9</color>
+    <color name="century_aperture_blade_color">#CCAAABAB</color>
+    <color name="century_aperture_background_color">#FFFFFFFF</color>
+   <string name="pref_camera_front_flashmode_title">Flash mode</string>    
+    <string name="pref_camera_front_flashmode_default" translatable="false">0</string>    
+    <string name="pref_camera_front_flashmode_entry_0">0</string>
+    <string name="pref_camera_front_flashmode_entry_1">1</string>
+    <string name="pref_camera_front_flashmode_entry_2">2</string>    
+    <string name="pref_camera_front_flashmode_entry_3">3</string>  
+
+</resources>

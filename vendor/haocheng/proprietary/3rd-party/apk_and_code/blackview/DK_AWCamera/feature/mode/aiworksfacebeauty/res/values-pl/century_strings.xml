@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<string name="century_facebeauty_onekey">Piękno jednym kliknięciem</string>
+	<string name="century_facebeauty_buffing">Polerowanie</string>
+	<string name="century_facebeauty_whitening">Bielenie</string>
+    <string name="century_facebeauty_ruddy">Rumiany</string>
+	<string name="century_facebeauty_slimming">Odchudzanie</string>
+
+</resources>

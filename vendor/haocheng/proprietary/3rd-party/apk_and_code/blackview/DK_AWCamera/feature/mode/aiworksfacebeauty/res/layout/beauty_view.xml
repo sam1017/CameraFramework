@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mediatek.camera.common.widget.RotateLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gybeaugy_rotate_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/gybeauty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:shadowColor="#BB000000">
+
+        <RelativeLayout
+            android:id="@+id/beauty_bottom_controls"
+            android:layout_width="330dp"
+            android:layout_height="38dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/hct_shutter_layout_height"
+            android:background="@drawable/ic_beauty_controls_bg"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/small_aperture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_beauty_controls_start" />
+
+            <SeekBar
+                android:id="@+id/gy_beauty_seekbar"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:max="100"
+                android:progress="1"
+                android:progressTint="#FFFFFFFF"
+                android:thumbTint="#FFFFFFFF" />
+
+            <ImageView
+                android:id="@+id/big_aperture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_beauty_controls_end" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/beauty_text_view"
+        android:layout_width="48dp"
+        android:layout_height="30dp"
+        android:layout_above="@id/beauty_bottom_controls"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/ic_beauty_controls_bg"
+        android:gravity="center"
+        android:textColor="@color/text_view_font"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+</com.mediatek.camera.common.widget.RotateLayout>

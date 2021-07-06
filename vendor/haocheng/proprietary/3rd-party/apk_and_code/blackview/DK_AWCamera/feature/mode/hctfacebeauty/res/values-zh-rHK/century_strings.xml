@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="century_facebeauty_buffing">磨皮</string>
+    <string name="century_facebeauty_eye">大眼</string>
+    <string name="century_facebeauty_ruddy">紅潤</string>
+    <string name="century_facebeauty_slimming">瘦臉</string>
+    <string name="century_facebeauty_whitening">美白</string>
+    <string name="century_facebeauty_onekey">一鍵美顏</string>
+    <string name="century_facebeauty_custom">自定義</string>
+</resources>

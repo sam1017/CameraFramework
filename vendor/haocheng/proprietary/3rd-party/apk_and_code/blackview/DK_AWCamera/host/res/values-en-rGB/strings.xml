@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="camera_label">"Camera"</string>
+    <string name="video_camera_label">"Camcorder"</string>
+    <string name="accessibility_shutter">"Shutter button"</string>
+    <string name="accessibility_thumbnail">"Most recent photo"</string>
+    <string name="accessibility_mode">Camera mode</string>
+    <string name="accessibility_setting">Setting</string>
+    <string name="setting_title">"Settings"</string>
+    <string name="mode_fragment_title">Modes</string>
+    <string name="normal_mode_title">"Normal"</string>
+    <string name="saving_dialog_default_string">saving...</string>
+    <string name="shutter_type_photo">"Picture"</string>
+    <string name="shutter_type_video">"Video"</string>
+    <string name="video_recording_not_available">Please stop other recording applications before using video camera.</string>
+    <string name="video_bad_performance_auto_stop">Low memory, auto stop recording.</string>
+    <string name="video_bad_performance_drop_quality">Low memory, auto change quality.</string>
+    <string name="video_recording_error">Error during recording!</string>
+    <string name="video_reach_size_limit">"Size limit reached."</string>
+    <string name="can_not_use_storage">SD card not available</string>
+    <string name="storage_full">Default storage is full. Please release some space or change storage options in settings.</string>
+    <string name="pref_thermal_dialog_title">Warning</string>
+    <string name="pref_thermal_dialog_content_launch">The device temperature is too high. Please use the camera later.</string>
+    <string name="pref_thermal_dialog_content">The device temperature is too high and the camera will exit automatically in 30 seconds. Please try again later.</string>
+    <string name="pref_thermal_preview_toast">Touch the screen to continue.</string>
+    <string name="optimize_picture" translatable="false">Optimizing image</string>
+    <string name="dialog_ok">"YES"</string>
+    <string name="more_mode_name">More</string>
+    <string name="camera_disabled">Camera has been deactivated due to restrictions from safety policies.</string>
+    <string name="cannot_connect_camera_new">"Can't connect to camera. Please make sure to exit all apps that can enable the camera or flash."</string>
+
+<!--bv sunyue add for Translation start 20201109-->
+<string name="global_label">General</string>
+    <string name="advanced_label">Advanced</string>
+    <string name="mirror_summary">Only works when taking pictures with the front-facing camera</string>
+    <string name="restore_settings">Restore default settings</string>
+    <string name="restore_settings_message">Restore camera settings to default?</string>
+    <string name="detail_title">"Details"</string>
+    <string name="night_title">Night Scene </string>
+    <string name="video_title">Video</string>
+    <string name="photo_title">Photo</string>
+    <string name="beauty_title">Beauty</string>
+    <string name="prof_title">Professional</string>
+    <string name="w4800_title">4800W</string>
+    <string name="mono_title">Black &amp; White</string>
+    <string name="bokeh_title">Portrait</string>
+    <string name="bokehcolor_title">Portrait color retention</string>
+    <string name="biprotrait_title">Panoramic</string>
+    <string name="night_summary">After multi-frame synthesis, denoising, low-light HDR and other processing, the night scene photos become purer and brighter.</string>
+    <string name="video_summary">The camera will automatically adjust the exposure and color to make the recorded video more vivid. </string>
+    <string name="photo_summary">The camera will automatically adjust the exposure and color to take the best picture.</string>
+    <string name="beauty_summary">"Smooth Skin", "Whiten", "Slim Face" and other beauty effects can be applied to the portrait when shooting.</string>
+    <string name="prof_summary">Support manual adjustment of sensitivity, shutter speed, focus mode, and white balance to satisfy diversified and personalized shooting needs.</string>
+    <string name="w4800_summary">Higher resolution, sharper image (HDR and Night Scene are not available in this mode).</string>
+    <string name="mono_summary">Take real and natural black-and-white photos.</string>
+    <string name="bokeh_summary">Blur the background when taking portraits.</string>
+    <string name="bokehcolor_summary">Identify portrait in real-time when taking photos, and black-and-white background highlights the color of the portrait.</string>
+    <string name="biprotrait_summary">Support manual adjustment of ISO sensitivity, shutter, exposure compensation, focus mode, and white balance to satisfy diversified and personalized shooting needs. </string>
+    <string name="ais_summary">Effective when flashlight and HDR are both off</string>
+<!--bv sunyue add for Translation end 20201109-->
+</resources>

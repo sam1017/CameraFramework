@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<string name="century_facebeauty_onekey">Макияж одним касанием</string>
+	<string name="century_facebeauty_buffing">Полировка</string>
+	<string name="century_facebeauty_whitening">Отбеливание</string>
+    <string name="century_facebeauty_ruddy">румяный</string>
+	<string name="century_facebeauty_slimming">Похудение</string>
+
+</resources>

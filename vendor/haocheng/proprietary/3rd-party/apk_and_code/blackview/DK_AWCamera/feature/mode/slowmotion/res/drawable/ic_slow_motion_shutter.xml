@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/vector_ic_slow_motion_shutter">
+<!--    <target
+        android:name="w_cilcle"
+        android:animation="@anim/anim_vector"
+        />-->
+    <target
+        android:name="circle_red"
+        android:animation="@anim/anim_alpha_in"
+        />
+
+<!--    <target
+        android:name="circle_white"
+        android:animation="@anim/anim_alpha_out"
+        />-->
+    <!--    <target
+            android:name="rect"
+            android:animation="@anim/anim_vector"
+            />-->
+</animated-vector>

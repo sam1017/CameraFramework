@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="storage_path_title">Cale memorie</string>
+    <string name="storage_path_internal">Memorie internă</string>
+    <string name="storage_path_external">Memorie card SD</string>
+    <string name="no_sdcard">Niciun card SD detectat</string>
+</resources>

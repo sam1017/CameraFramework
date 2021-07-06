@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="camera_label">"Камера"</string>
+    <string name="video_camera_label">"Видеокамера"</string>
+    <string name="accessibility_shutter">"Кнопка \"Затвор\""</string>
+    <string name="accessibility_thumbnail">"Недавние фото"</string>
+    <string name="accessibility_mode">Режим камеры</string>
+    <string name="accessibility_setting">"Настройки"</string>
+    <string name="setting_title">"Настройки"</string>
+    <string name="mode_fragment_title">Режимы</string>
+    <string name="normal_mode_title">"Нормальное"</string>
+    <string name="saving_dialog_default_string">Сохранение...</string>
+    <string name="shutter_type_photo">"Фото"</string>
+    <string name="shutter_type_video">"Видео"</string>
+    <string name="video_recording_not_available">Перед использованием видеокамеры остановите другие приложения записи.</string>
+    <string name="video_bad_performance_auto_stop">Недостаточно памяти, автоматически останавливать запись</string>
+    <string name="video_bad_performance_drop_quality">Недостаточно памяти, автоматически снижать качество записи.</string>
+    <string name="video_recording_error">Ошибка в процессе записи!</string>
+    <string name="video_reach_size_limit">"Достигнут предельный размер видео."</string>
+    <string name="can_not_use_storage">SD-карта недоступна</string>
+    <string name="storage_full">Хранилище по умолчанию заполнено, освободите место или управляйте параметрами хранилища в настройках</string>
+    <string name="pref_thermal_dialog_title">Предупреждение</string>
+    <string name="pref_thermal_dialog_content_launch">Температураустройстваслишкомвысокая,отложитеиспользованиекамеры.</string>
+    <string name="pref_thermal_dialog_content">Температураустройстваслишкомвысокая,камераавтоматическизавершитсвоюработучерез30секунд.Отложитеиспользованиекамерынанекотороевремя.</string>
+    <string name="pref_thermal_preview_toast">Для продолжения коснитесь экрана</string>
+    <!-- start, wangsenhao, for macro lens camera toast, 2020.04.07 -->
+    <string name="macro_lens_camera_toast">пожалуйста, сделайте макро фотографии на расстоянии 4 см.</string>
+    <!-- end, wangsenhao, for macro lens camera toast, 2020.04.07 -->
+
+    <!-- add by wangshuoshuo for translate -->
+    <string name="hct_under_water_tips">Сенсорные кнопки не работают в этом режиме, нажмите кнопку Power для выхода</string>
+    <!-- end by wangshuoshuo -->    
+    <!-- add by wangshuoshuo for translate -->
+    <string name="hct_bokeh_tip">"Убедитесь, что объектив не заблокирован, чтобы обеспечить эффект съемки"</string>
+    <!-- end by wangshuoshuo -->
+    <string name="optimize_picture" translatable="false">Оптимизация качества изображения</string>
+    <string name="dialog_ok">“Определить”</string>
+    <string name="more_mode_name">больше</string>
+    <string name="camera_disabled">Фотоаппарат был отключен из-за ограничений политики безопасности</string>
+    <string name="cannot_connect_camera_new">Не удается подключиться к фотоаппарату.Убедитесь закрыть приложение, которое будет использовать камеру или вспышку.</string>
+    
+    <!--bv sunyue add for Translation start 20201109-->
+    <string name="global_label">Универсальный</string>
+    <string name="advanced_label">Высший</string>
+    <string name="mirror_summary">Только эффекттровать при съемке с фронтальной камеры</string>
+    <string name="restore_settings">Восстановление настройки по умолчанию</string>
+    <string name="restore_settings_message">Восстановить ли настройку камеры по умолчанию?</string>
+    <string name="detail_title">“Подробная информация”</string>
+    <string name="night_title">Ночной вид</string>
+    <string name="video_title">Видео</string>
+    <string name="photo_title">Фото</string>
+    <string name="beauty_title">Красота</string>
+    <string name="prof_title">Ручной</string>
+    <string name="w4800_title">48 миллионов</string>
+    <string name="mono_title">Черно-белый</string>
+    <string name="bokeh_title">Портрет</string>
+    <string name="bokehcolor_title">Портретная живопись</string>
+    <string name="biprotrait_title">Панорама</string>
+    <string name="night_summary">После многокадрового синтеза, шумоподавления, низкой освещенности HDR и другой обработки, ночные фотографии становятся более чистыми и яркими.</string>
+    <string name="video_summary">Камера автоматически отрегулирует экспозицию и цвет,записывая видео более ярким</string>
+    <string name="photo_summary">Камера автоматически регулирует экспозицию и цвет, чтобы сделать лучшие фотографии</string>
+    <string name="beauty_summary">При съемке портрета возможна дермабразия, отбеливание, похудение лица и другие косметические эффекты.</string>
+    <string name="prof_summary">Поддержка ручной регулировки чувствительности,скорости затвора, режима фокусировки, баланса белого, чтобы удовлетворить потребности разнообразной, персонализированной съемки.</string>
+    <string name="w4800_summary">Более высокое разрешение,более четкое изображение(HDR и ночные сцены в этом режиме недоступны）.</string>
+    <string name="mono_summary">Взять реальные и естественные черно - белые фотоэффекты.</string>
+    <string name="bokeh_summary">Можно размыть фон при съемке портрета.</string>
+    <string name="bokehcolor_summary">Распознавать портрет в реальном времени при съемке фотографии,черно-белый фон выделяет цвет портрета.</string>
+    <string name="biprotrait_summary">Поддержка ручной регулировки чувствительности ISO, затвора, компенсации экспозиции, режима фокусировки, баланса белого, чтобы удовлетворить потребности разнообразной, персонализированной съемки.</string>
+    <string name="ais_summary">Действует только при одновременном выключении вспышки и HDR</string>
+    <string name="slowmotion_mode_summary">Камера может снимать высокоскоростное видео со скоростью 120 кадров в секунду, а затем воспроизводить его со скоростью 30 кадров в секунду, реализуя 4-кратное медленное движение, чтобы замедлить прекрасные моменты.</string>
+<!--bv sunyue add for Translation end 20201109-->
+
+</resources>

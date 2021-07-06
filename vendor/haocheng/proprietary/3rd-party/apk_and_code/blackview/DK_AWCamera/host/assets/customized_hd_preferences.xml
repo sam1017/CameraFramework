@@ -1,0 +1,36 @@
+<CameraPreferences>
+    <Item>
+        <key>pref_hd_mode_config_key</key>
+        <defaultValue>{
+            <!-- 项目识别码，没啥用处，只是标识一下，可以辨认-->
+            "productName":"",
+
+            <!-- 35 for YUV and 256 for JPEG -->
+            "photoForamt":"35",
+
+            "photoSize":"",
+
+            "mfnr_ce":0.3,
+            "mfnr_sp":0.5,
+            "mfnr_fast":true,
+            "force_mtk_mfnr":true,
+
+            <!-- 是否开dump信息，调试放在/sdcard/super目录下，集成放在assets中，默认true-->
+            "dump":false,
+
+            <!-- ISP 图像增强部分（仅部分平台有效）
+            NOISE_REDUCTION_MODE: FAST = 1; HIGH_QUALITY = 2;MINIMAL = 3;OFF = 0;ZERO_SHUTTER_LAG = 4;
+            EDGE_MODE:FAST = 1; HIGH_QUALITY = 2; OFF = 0; ZERO_SHUTTER_LAG = 3;
+            -->
+            "noiseReductionMode":-1,
+            "edgeMode":-1,
+            "sharpness":-1,
+            "saturation":-1,
+            "contrast":-1,
+            "aeMeterMode":-1,
+            "sceneMode":-1,
+            "mfnrMode":1
+        }
+        </defaultValue>
+    </Item>
+</CameraPreferences>

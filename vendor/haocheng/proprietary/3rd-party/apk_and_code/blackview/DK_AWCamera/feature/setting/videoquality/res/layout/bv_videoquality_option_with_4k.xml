@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true">
+    <RelativeLayout
+        android:id="@+id/bv_videoquality_choice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layoutDirection="rtl">
+        <com.mediatek.camera.common.widget.RotateImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/bv_videoquality2"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/accessibility_flash_auto"
+            android:src="@drawable/bv_videoquality_1080"/>
+        <com.mediatek.camera.common.widget.RotateImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/bv_videoquality3"
+            android:layout_toEndOf="@id/bv_videoquality2"
+            android:layout_marginStart="108dp"
+            android:contentDescription="@string/accessibility_flash_on"
+            android:src="@drawable/bv_videoquality_4k"/>
+        <com.mediatek.camera.common.widget.RotateImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/bv_videoquality1"
+            android:layout_toStartOf="@id/bv_videoquality2"
+            android:layout_marginEnd="110dp"
+            android:contentDescription="@string/accessibility_flash_off"
+            android:src="@drawable/bv_videoquality_720"/>
+    </RelativeLayout>
+</LinearLayout>

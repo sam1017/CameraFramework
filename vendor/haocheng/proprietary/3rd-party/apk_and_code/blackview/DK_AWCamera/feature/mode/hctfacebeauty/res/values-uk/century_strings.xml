@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="century_facebeauty_buffing">Збивання</string>
+    <string name="century_facebeauty_ruddy">Рудді</string>
+    <string name="century_facebeauty_slimming">Схуднення</string>
+    <string name="century_facebeauty_whitening">Відбілювання</string>
+    <string name="century_facebeauty_onekey">Один дотик Makeover</string>
+</resources>

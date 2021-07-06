@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="camera_label">"Fotoaparát"</string>
+    <string name="video_camera_label">"Videokamera"</string>
+    <string name="accessibility_shutter">"Tlačítko závěrky"</string>
+    <string name="accessibility_thumbnail">"Poslední fotografie"</string>
+    <string name="accessibility_mode">Režim kamery</string>
+    <string name="accessibility_setting">Nastavení</string>
+    <string name="setting_title">"Nastavení"</string>
+    <string name="mode_fragment_title">Režimy</string>
+    <string name="normal_mode_title">"Normální"</string>
+    <string name="saving_dialog_default_string">Ukládání...</string>
+    <string name="shutter_type_photo">"Obrázek"</string>
+    <string name="shutter_type_video">"Video"</string>
+    <string name="video_recording_not_available">Před používáním videokamery zastavte ostatní záznamové aplikace.</string>
+    <string name="video_bad_performance_auto_stop">Nedostatek paměti, automatické zastavení záznamu.</string>
+    <string name="video_bad_performance_drop_quality">Nedostatek paměti, automatická změna kvality.</string>
+    <string name="video_recording_error">Chyba během záznamu!</string>
+    <string name="video_reach_size_limit">"Bylo dosaženo limitu velikosti."</string>
+    <string name="can_not_use_storage">Karta SD není k dispozici</string>
+    <string name="storage_full">Výchozí úložiště je plné, prosím uvolněte část prostoru nebo upravte možnosti úložiště v nastavení</string>
+    <string name="pref_thermal_dialog_title">Varování</string>
+    <string name="pref_thermal_dialog_content_launch">Přílišvysokáteplotazařízení,použijtefotoaparátpozději.</string>
+    <string name="pref_thermal_dialog_content">Teplotazařízeníjepřílišvysokáafotoaparátseza30sekundautomatickyukončí.Zkustejejpoužítpozději.</string>
+    <string name="pref_thermal_preview_toast">Pro pokračování se dotkněte displeje. </string>
+    <!-- start, wangsenhao, for macro lens camera toast, 2020.04.07 -->
+    <string name="macro_lens_camera_toast">prosím vyfotografujte makro fotografie ve vzdálenosti 4 cm.</string>
+    <!-- end, wangsenhao, for macro lens camera toast, 2020.04.07 -->
+
+    <string name="cannot_connect_camera_new">"Nelze se připojit ke kameře. Prosím zkontrolujte zda není spuštěna aplikace využívající kameru nebo přísvit."</string>
+    <string name="camera_disabled">"Kamera byla deaktivována z bezpečnostní důvodů."</string>
+    <string name="dialog_ok">"OK"</string>
+    <string name="multi_window_mode_toast_lct">"Kamera nepodporuje použití režimu více oken"</string>
+    <string name="rotation_action">"prosím otočte telefon"</string>
+    <string name="rotation_purpose">"nasměrujte telefon přední kamerou nad vás pro hezčí záběr"</string>
+    <string name="rotation_button">"Mám to"</string>
+    <string name="hct_video_recording_error">"Nahrávací aplikace běží na pozadí a není možné náhrávat video. Prosím vypněte nahrávání a opakujte."</string>
+    <string name="hct_under_water_tips">"Funkce dotykové obrazovky je v tomto režimu vypnuta, stiskněte tlačítko napájení pro opuštění režimu."</string>
+    <string name="hct_bokeh_tip">"Před focením se ujistěte, že nezakrýváte čočku objektivu."</string>
+    <string name="select_path_prompt">"Zvolte cestu SD karty pro error"</string>
+</resources>

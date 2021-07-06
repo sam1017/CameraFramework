@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c425f743-b069-420f-b66d-4a38a4f42f07" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../../../../build/soong/ui/build/finder.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../build/soong/ui/build/finder.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/BtInfo_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/BtInfo_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/HpImpedance_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/HpImpedance_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/HpImpedance_ParamUnitDesc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/HpImpedance_ParamUnitDesc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/MicInfo_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/MicInfo_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/PlaybackACF_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/PlaybackACF_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/PlaybackDRC_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/PlaybackDRC_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/PlaybackHCF_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/PlaybackHCF_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/PlaybackVolAna_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/PlaybackVolAna_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/PlaybackVolDigi_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/PlaybackVolDigi_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/PlaybackVolUI_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/PlaybackVolUI_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/Playback_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/Playback_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/Playback_ParamUnitDesc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/Playback_ParamUnitDesc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/RecordDMNR_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/RecordDMNR_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/RecordFIR_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/RecordFIR_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/RecordUI_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/RecordUI_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/RecordVolUI_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/RecordVolUI_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/RecordVolUI_ParamUnitDesc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/RecordVolUI_ParamUnitDesc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/RecordVol_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/RecordVol_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/Record_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/Record_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/RingbackVolUI_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/RingbackVolUI_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/RingbackVolUI_ParamUnitDesc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/RingbackVolUI_ParamUnitDesc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/RingbackVol_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/RingbackVol_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/RingbackVol_ParamUnitDesc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/RingbackVol_ParamUnitDesc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/SoundEnhancement_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/SoundEnhancement_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/SpeechDMNR_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/SpeechDMNR_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/SpeechEchoRef_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/SpeechEchoRef_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/SpeechGeneral_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/SpeechGeneral_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/SpeechGeneral_ParamUnitDesc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/SpeechGeneral_ParamUnitDesc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/SpeechMagiClarity_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/SpeechMagiClarity_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/SpeechNetwork_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/SpeechNetwork_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/SpeechUI_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/SpeechUI_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/SpeechUI_ParamUnitDesc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/SpeechUI_ParamUnitDesc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/SpeechVolUI_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/SpeechVolUI_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/SpeechVolUI_ParamUnitDesc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/SpeechVolUI_ParamUnitDesc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/SpeechVol_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/SpeechVol_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/SpeechVol_ParamUnitDesc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/SpeechVol_ParamUnitDesc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/Speech_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/Speech_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/Speech_ParamTreeView.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/Speech_ParamTreeView.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/Speech_ParamUnitDesc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/Speech_ParamUnitDesc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/USBCall_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/USBCall_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/USBDevice_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/USBDevice_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/UplinkConfiguration_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/UplinkConfiguration_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/UplinkConfiguration_ParamUnitDesc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/UplinkConfiguration_ParamUnitDesc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VoIPDMNR_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VoIPDMNR_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VoIPGeneral_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VoIPGeneral_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VoIPUI_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VoIPUI_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VoIPVolUI_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VoIPVolUI_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VoIPVol_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VoIPVol_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VoIPv2DMNR_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VoIPv2DMNR_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VoIPv2General_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VoIPv2General_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VoIPv2UI_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VoIPv2UI_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VoIPv2UI_ParamUnitDesc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VoIPv2UI_ParamUnitDesc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VoIPv2_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VoIPv2_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VoIPv2_ParamTreeView.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VoIPv2_ParamTreeView.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VoIPv2_ParamUnitDesc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VoIPv2_ParamUnitDesc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VoWDspAec_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VoWDspAec_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VoWHwVad_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VoWHwVad_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VolumeGainMapUL_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VolumeGainMapUL_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VolumeGainMapUL_ParamUnitDesc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VolumeGainMapUL_ParamUnitDesc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VolumeGainMap_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VolumeGainMap_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VolumeGainMap_ParamUnitDesc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/VolumeGainMap_ParamUnitDesc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/Volume_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/common/audio_param/Volume_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/config/apns-conf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/config/apns-conf.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/mt6833/audio_param/PlaybackVolAna_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/mt6833/audio_param/PlaybackVolAna_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/mt6833/audio_param/SoundEnhancement_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/mt6833/audio_param/SoundEnhancement_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/mt6833/audio_param/Volume_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/mt6833/audio_param/Volume_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/mt6833/thermal.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/mt6833/thermal.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/mt6833/thermal.eng.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/mt6833/thermal.eng.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/security/k6833v1_64/networkstack.x509.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/security/k6833v1_64/networkstack.x509.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/system/common/system.prop" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/system/common/system.prop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/BtInfo_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/BtInfo_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/HpImpedance_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/HpImpedance_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/MicInfo_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/MicInfo_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/PlaybackACF_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/PlaybackACF_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/PlaybackDRC_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/PlaybackDRC_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/PlaybackHCF_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/PlaybackHCF_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/PlaybackVolAna_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/PlaybackVolAna_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/PlaybackVolDigi_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/PlaybackVolDigi_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/PlaybackVolUI_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/PlaybackVolUI_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/Playback_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/Playback_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/RecordDMNR_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/RecordDMNR_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/RecordFIR_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/RecordFIR_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/RecordUI_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/RecordUI_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/RecordVolUI_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/RecordVolUI_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/RecordVol_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/RecordVol_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/Record_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/Record_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/RingbackVolUI_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/RingbackVolUI_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/RingbackVol_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/RingbackVol_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/SoundEnhancement_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/SoundEnhancement_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/SpeechDMNR_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/SpeechDMNR_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/SpeechEchoRef_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/SpeechEchoRef_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/SpeechGeneral_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/SpeechGeneral_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/SpeechMagiClarity_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/SpeechMagiClarity_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/SpeechNetwork_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/SpeechNetwork_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/SpeechUI_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/SpeechUI_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/SpeechVolUI_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/SpeechVolUI_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/SpeechVol_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/SpeechVol_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/Speech_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/Speech_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/USBCall_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/USBCall_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/USBDevice_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/USBDevice_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/UplinkConfiguration_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/UplinkConfiguration_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/UplinkConfiguration_ParamUnitDesc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/UplinkConfiguration_ParamUnitDesc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/VoIPDMNR_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/VoIPDMNR_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/VoIPGeneral_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/VoIPGeneral_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/VoIPUI_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/VoIPUI_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/VoIPVolUI_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/VoIPVolUI_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/VoIPVol_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/VoIPVol_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/VoIPv2DMNR_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/VoIPv2DMNR_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/VoIPv2General_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/VoIPv2General_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/VoIPv2UI_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/VoIPv2UI_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/VoIPv2_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/VoIPv2_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/VoWDspAec_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/VoWDspAec_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/VoWHwVad_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/VoWHwVad_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/VolumeGainMapUL_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/VolumeGainMapUL_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/VolumeGainMap_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/VolumeGainMap_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/Volume_AudioParam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediatek/vendor/common/audio_param/Volume_AudioParam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../device/mediateksample/k6833v1_64/ProjectConfig.mk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../device/mediateksample/k6833v1_64/ProjectConfig.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../frameworks/base/core/res/res/drawable-nodpi/default_wallpaper.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../frameworks/base/core/res/res/drawable-nodpi/default_wallpaper.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../frameworks/base/core/res/res/drawable-sw600dp-nodpi/default_wallpaper.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../frameworks/base/core/res/res/drawable-sw600dp-nodpi/default_wallpaper.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../frameworks/base/core/res/res/drawable-sw720dp-nodpi/default_wallpaper.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../frameworks/base/core/res/res/drawable-sw720dp-nodpi/default_wallpaper.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../frameworks/base/core/res/res/drawable-xxhdpi/dktheme_camera.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../frameworks/base/core/res/res/drawable-xxhdpi/dktheme_camera.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../frameworks/base/core/res/res/drawable-xxhdpi/dktheme_chlidmode.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../frameworks/base/core/res/res/drawable-xxhdpi/dktheme_chlidmode.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../frameworks/base/core/res/res/drawable-xxhdpi/dktheme_contact.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../frameworks/base/core/res/res/drawable-xxhdpi/dktheme_contact.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../frameworks/base/core/res/res/drawable-xxhdpi/dktheme_desklcock.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../frameworks/base/core/res/res/drawable-xxhdpi/dktheme_desklcock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../frameworks/base/core/res/res/drawable-xxhdpi/dktheme_dialer.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../frameworks/base/core/res/res/drawable-xxhdpi/dktheme_dialer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../frameworks/base/core/res/res/drawable-xxhdpi/dktheme_fmradio.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../frameworks/base/core/res/res/drawable-xxhdpi/dktheme_fmradio.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../frameworks/base/core/res/res/drawable-xxhdpi/dktheme_gamemode.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../frameworks/base/core/res/res/drawable-xxhdpi/dktheme_gamemode.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../frameworks/base/core/res/res/drawable-xxhdpi/dktheme_setting.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../frameworks/base/core/res/res/drawable-xxhdpi/dktheme_setting.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../frameworks/base/core/res/res/drawable-xxhdpi/dktheme_todos.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../frameworks/base/core/res/res/drawable-xxhdpi/dktheme_todos.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../frameworks/base/core/res/res/drawable-xxhdpi/dktheme_tool.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../frameworks/base/core/res/res/drawable-xxhdpi/dktheme_tool.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../frameworks/base/core/res/res/drawable-xxhdpi/dktheme_trans_file.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../frameworks/base/core/res/res/drawable-xxhdpi/dktheme_trans_file.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../frameworks/base/core/res/res/drawable-xxhdpi/theme_mask.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../frameworks/base/core/res/res/drawable-xxhdpi/theme_mask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../frameworks/base/core/res/res/drawable/btn_borderless_material.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../frameworks/base/core/res/res/drawable/btn_borderless_material.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../frameworks/base/data/sounds/effects/ogg/Effect_Tick_48k.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../frameworks/base/data/sounds/effects/ogg/Effect_Tick_48k.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../frameworks/base/data/sounds/effects/ogg/Lock.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../frameworks/base/data/sounds/effects/ogg/Lock.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../frameworks/base/data/sounds/effects/ogg/Unlock.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../frameworks/base/data/sounds/effects/ogg/Unlock.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../frameworks/base/data/sounds/effects/ogg/VideoStop.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../frameworks/base/data/sounds/effects/ogg/VideoStop.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../frameworks/base/data/sounds/effects/ogg/VideoStop_48k.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../frameworks/base/data/sounds/effects/ogg/VideoStop_48k.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../frameworks/base/data/sounds/effects/ogg/camera_click_48k.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../frameworks/base/data/sounds/effects/ogg/camera_click_48k.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../frameworks/base/data/sounds/effects/ogg/camera_focus.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../frameworks/base/data/sounds/effects/ogg/camera_focus.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../frameworks/base/packages/overlays/Android.mk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../frameworks/base/packages/overlays/Android.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../frameworks/base/packages/overlays/NavigationBarMode2ButtonOverlay/res/values/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../frameworks/base/packages/overlays/NavigationBarMode2ButtonOverlay/res/values/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../frameworks/base/packages/overlays/NavigationBarMode3ButtonOverlay/res/values/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../frameworks/base/packages/overlays/NavigationBarMode3ButtonOverlay/res/values/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../frameworks/base/packages/overlays/NavigationBarModeGesturalOverlay/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../frameworks/base/packages/overlays/NavigationBarModeGesturalOverlay/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../kernel-4.14/arch/arm64/boot/dts/mediatek/bat_setting/mt6833_battery_prop.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../kernel-4.14/arch/arm64/boot/dts/mediatek/bat_setting/mt6833_battery_prop.dtsi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../kernel-4.14/arch/arm64/boot/dts/mediatek/bat_setting/mt6833_battery_table.dtsi" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../kernel-4.14/arch/arm64/boot/dts/mediatek/bat_setting/mt6833_battery_table.dtsi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../kernel-4.14/arch/arm64/configs/k6833v1_64_defconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../kernel-4.14/arch/arm64/configs/k6833v1_64_defconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../kernel-4.14/drivers/misc/mediatek/imgsensor/src/common/v1_1/s5k3p9spsub_mipi_raw/s5k3p9spsubmipiraw_Sensor.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../kernel-4.14/drivers/misc/mediatek/imgsensor/src/common/v1_1/s5k3p9spsub_mipi_raw/s5k3p9spsubmipiraw_Sensor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../kernel-4.14/drivers/misc/mediatek/include/mt-plat/mt6833/include/mach/mtk_battery_table.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../kernel-4.14/drivers/misc/mediatek/include/mt-plat/mt6833/include/mach/mtk_battery_table.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../kernel-4.14/sound/soc/codecs/fs18xx/fs1603s.fsm" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../kernel-4.14/sound/soc/codecs/fs18xx/fs1603s.fsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../elephanttek/FaceUnlock/tee/trustkernel/face1d41-2636-11e1-ad9e0002a5d6c51b.ta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../elephanttek/FaceUnlock/tee/trustkernel/face1d41-2636-11e1-ad9e0002a5d6c51b.ta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../google_r7/apps/Chrome/Android.mk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../google_r7/apps/Chrome/Android.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../google_r7/apps/GmsSampleIntegration/res/raw/wizard_script.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../google_r7/apps/GmsSampleIntegration/res/raw/wizard_script.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../google_r7/apps/GoogleDialer/Android.mk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../google_r7/apps/GoogleDialer/Android.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../google_r7/apps/LatinImeGoogle/Android.mk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../google_r7/apps/LatinImeGoogle/Android.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../google_r7/apps/Messages/Android.mk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../google_r7/apps/Messages/Android.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../google_r7/apps/Photos/Android.mk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../google_r7/apps/Photos/Android.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../google_r7/overlay/GmsConfigOverlayComms/res/values/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../google_r7/overlay/GmsConfigOverlayComms/res/values/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../google_r7/overlay/gms_overlay_comms/packages/services/Telecomm/res/values/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../google_r7/overlay/gms_overlay_comms/packages/services/Telecomm/res/values/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../google_r7/overlay/gms_overlay_comms/packages/services/Telephony/res/values/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../google_r7/overlay/gms_overlay_comms/packages/services/Telephony/res/values/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../drivers/check_script/header_check" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../drivers/check_script/header_check" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../drivers/hct_include/hct_custom_config.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../drivers/hct_include/hct_custom_config.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/HctSystemConfig.mk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/HctSystemConfig.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/HctVendorConfig.mk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/HctVendorConfig.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../overlays/localization/zh-rCN/frameworks/base/core/res/hct_res/values/hct_arrays.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../overlays/localization/zh-rCN/frameworks/base/core/res/hct_res/values/hct_arrays.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../overlays/localization/zh-rCN/vendor/haocheng/proprietary/packages/HctToolBag/res/values/arrays.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../overlays/localization/zh-rCN/vendor/haocheng/proprietary/packages/HctToolBag/res/values/arrays.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../overlays/localization/zh-rCN/vendor/mediatek/proprietary/packages/apps/MtkSettings/res/values/hct_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../overlays/localization/zh-rCN/vendor/mediatek/proprietary/packages/apps/MtkSettings/res/values/hct_config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../overlays/localization/zh-rCN/vendor/mediatek/proprietary/packages/apps/SettingsProvider/res/values/defaults.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../overlays/localization/zh-rCN/vendor/mediatek/proprietary/packages/apps/SettingsProvider/res/values/defaults.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../overlays/localization/zh-rCN/vendor/mediatek/proprietary/packages/apps/SettingsProvider/res/values/hct_defaults.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../overlays/localization/zh-rCN/vendor/mediatek/proprietary/packages/apps/SettingsProvider/res/values/hct_defaults.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctLauncherMi/res/xml/default_workspace_5x4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctLauncherMi/res/xml/default_workspace_5x4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctToolBag/res/values/arrays.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctToolBag/res/values/arrays.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-de/wallpaper01.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-de/wallpaper01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-de/wallpaper02.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-de/wallpaper02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-de/wallpaper03.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-de/wallpaper03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-de/wallpaper04.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-de/wallpaper04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-de/wallpaper05.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-de/wallpaper05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-es/wallpaper01.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-es/wallpaper01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-es/wallpaper02.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-es/wallpaper02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-es/wallpaper03.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-es/wallpaper03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-es/wallpaper04.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-es/wallpaper04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-es/wallpaper05.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-es/wallpaper05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-fr/wallpaper01.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-fr/wallpaper01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-fr/wallpaper02.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-fr/wallpaper02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-fr/wallpaper03.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-fr/wallpaper03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-fr/wallpaper04.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-fr/wallpaper04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-fr/wallpaper05.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-fr/wallpaper05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-it/wallpaper01.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-it/wallpaper01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-it/wallpaper02.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-it/wallpaper02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-it/wallpaper03.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-it/wallpaper03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-it/wallpaper04.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-it/wallpaper04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-it/wallpaper05.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-it/wallpaper05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-nodpi/wallpaper01.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-nodpi/wallpaper01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-nodpi/wallpaper02.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-nodpi/wallpaper02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-nodpi/wallpaper03.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-nodpi/wallpaper03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-nodpi/wallpaper04.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-nodpi/wallpaper04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-nodpi/wallpaper05.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-nodpi/wallpaper05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-pt/wallpaper01.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-pt/wallpaper01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-pt/wallpaper02.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-pt/wallpaper02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-pt/wallpaper03.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-pt/wallpaper03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-pt/wallpaper04.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-pt/wallpaper04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-pt/wallpaper05.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-pt/wallpaper05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-ru/wallpaper01.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-ru/wallpaper01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-ru/wallpaper02.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-ru/wallpaper02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-ru/wallpaper03.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-ru/wallpaper03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-ru/wallpaper04.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-ru/wallpaper04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-ru/wallpaper05.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../packages/HctUserGuide/res/drawable-ru/wallpaper05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/dev/logo/fhdplus2300/fhdplus2300_kernel.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/dev/logo/fhdplus2300/fhdplus2300_kernel.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/dev/logo/fhdplus2300/fhdplus2300_low_battery.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/dev/logo/fhdplus2300/fhdplus2300_low_battery.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/dev/logo/fhdplus2300/fhdplus2300_num_0.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/dev/logo/fhdplus2300/fhdplus2300_num_0.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/dev/logo/fhdplus2300/fhdplus2300_num_1.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/dev/logo/fhdplus2300/fhdplus2300_num_1.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/dev/logo/fhdplus2300/fhdplus2300_num_2.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/dev/logo/fhdplus2300/fhdplus2300_num_2.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/dev/logo/fhdplus2300/fhdplus2300_num_3.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/dev/logo/fhdplus2300/fhdplus2300_num_3.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/dev/logo/fhdplus2300/fhdplus2300_num_4.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/dev/logo/fhdplus2300/fhdplus2300_num_4.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/dev/logo/fhdplus2300/fhdplus2300_num_5.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/dev/logo/fhdplus2300/fhdplus2300_num_5.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/dev/logo/fhdplus2300/fhdplus2300_num_6.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/dev/logo/fhdplus2300/fhdplus2300_num_6.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/dev/logo/fhdplus2300/fhdplus2300_num_7.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/dev/logo/fhdplus2300/fhdplus2300_num_7.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/dev/logo/fhdplus2300/fhdplus2300_num_8.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/dev/logo/fhdplus2300/fhdplus2300_num_8.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/dev/logo/fhdplus2300/fhdplus2300_num_9.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/dev/logo/fhdplus2300/fhdplus2300_num_9.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/dev/logo/fhdplus2300/fhdplus2300_num_percent.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/dev/logo/fhdplus2300/fhdplus2300_num_percent.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/dev/logo/fhdplus2300/fhdplus2300_uboot.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/dev/logo/fhdplus2300/fhdplus2300_uboot.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/dev/logo/rules.mk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/dev/logo/rules.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/dev/logo/update" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/dev/logo/update" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/target/k6833v1_64/dct/dct/codegen.dws" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/lk/target/k6833v1_64/dct/dct/codegen.dws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/preloader/custom/k6833v1_64/dct/dct/codegen.dws" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/preloader/custom/k6833v1_64/dct/dct/codegen.dws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/preloader/custom/k6833v1_64/inc/custom_MemoryDevice.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/preloader/custom/k6833v1_64/inc/custom_MemoryDevice.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/preloader/custom/k6833v1_64/k6833v1_64.mk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/preloader/custom/k6833v1_64/k6833v1_64.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/preloader/tools/emigen/MT6833/MemoryDeviceList_MT6833.xls" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/bootable/bootloader/preloader/tools/emigen/MT6833/MemoryDeviceList_MT6833.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/custom/k6833v1_64/kernel/dct/dct/codegen.dws" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/custom/k6833v1_64/kernel/dct/dct/codegen.dws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/custom/mt6853/hal/imgsensor/ver1/s5k3p9snmain2_mipi_raw/Scene_Capture/ISP_MFNR.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/custom/mt6853/hal/imgsensor/ver1/s5k3p9snmain2_mipi_raw/Scene_Capture/ISP_MFNR.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/custom/mt6853/hal/imgsensor/ver1/s5k3p9snmain2_mipi_raw/Scene_Capture/ISP_RAW.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/custom/mt6853/hal/imgsensor/ver1/s5k3p9snmain2_mipi_raw/Scene_Capture/ISP_RAW.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/custom/mt6853/hal/imgsensor/ver1/s5k3p9snmain2_mipi_raw/Scene_Capture/ISP_YUV.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/custom/mt6853/hal/imgsensor/ver1/s5k3p9snmain2_mipi_raw/Scene_Capture/ISP_YUV.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/custom/mt6853/hal/imgsensor/ver1/s5k3p9snmain2_mipi_raw/Scene_Preview/ISP_RAW.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/custom/mt6853/hal/imgsensor/ver1/s5k3p9snmain2_mipi_raw/Scene_Preview/ISP_RAW.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/custom/mt6853/hal/imgsensor/ver1/s5k3p9snmain2_mipi_raw/Scene_Preview/ISP_YUV.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/custom/mt6853/hal/imgsensor/ver1/s5k3p9snmain2_mipi_raw/Scene_Preview/ISP_YUV.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/custom/mt6853/hal/imgsensor/ver1/s5k3p9snmain2_mipi_raw/Scene_Preview_4k/ISP_RAW.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/custom/mt6853/hal/imgsensor/ver1/s5k3p9snmain2_mipi_raw/Scene_Preview_4k/ISP_RAW.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/custom/mt6853/hal/imgsensor/ver1/s5k3p9snmain2_mipi_raw/Scene_Preview_4k/ISP_YUV.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/custom/mt6853/hal/imgsensor/ver1/s5k3p9snmain2_mipi_raw/Scene_Preview_4k/ISP_YUV.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/custom/mt6853/hal/imgsensor/ver1/s5k3p9snmain2_mipi_raw/Video_1080/ISP_RAW.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/custom/mt6853/hal/imgsensor/ver1/s5k3p9snmain2_mipi_raw/Video_1080/ISP_RAW.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/custom/mt6853/hal/imgsensor/ver1/s5k3p9snmain2_mipi_raw/Video_1080/ISP_YUV.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/custom/mt6853/hal/imgsensor/ver1/s5k3p9snmain2_mipi_raw/Video_1080/ISP_YUV.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/custom/mt6853/hal/imgsensor/ver1/s5k3p9snmain2_mipi_raw/camera_AE_PLineTable_s5k3p9snmain2mipiraw.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/custom/mt6853/hal/imgsensor/ver1/s5k3p9snmain2_mipi_raw/camera_AE_PLineTable_s5k3p9snmain2mipiraw.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/custom/mt6853/hal/imgsensor/ver1/s5k3p9spsub_mipi_raw/Scene_Preview/ISP_YUV.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/custom/mt6853/hal/imgsensor/ver1/s5k3p9spsub_mipi_raw/Scene_Preview/ISP_YUV.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/custom/mt6853/hal/imgsensor/ver1/s5k3p9spsub_mipi_raw/Scene_Preview_4k/ISP_YUV.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/custom/mt6853/hal/imgsensor/ver1/s5k3p9spsub_mipi_raw/Scene_Preview_4k/ISP_YUV.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/custom/mt6853/hal/imgsensor/ver1/s5k3p9spsub_mipi_raw/Video_1080/ISP_YUV.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/custom/mt6853/hal/imgsensor/ver1/s5k3p9spsub_mipi_raw/Video_1080/ISP_YUV.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/custom/mt6853/hal/imgsensor_metadata/s5k3p9spsub_mipi_raw/hct_metadata_config.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/custom/mt6853/hal/imgsensor_metadata/s5k3p9spsub_mipi_raw/hct_metadata_config.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/external/libshowlogo/cust_display.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/external/libshowlogo/cust_display.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/external/libshowlogo/hct_cust_display.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/external/libshowlogo/hct_cust_display.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/frameworks/base/data/etc/pms_sysapp_removable_system_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/frameworks/base/data/etc/pms_sysapp_removable_system_list.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/hardware/mtkcam3/3rdparty/customer/cp_watermark/yuv_img_para.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/hardware/mtkcam3/3rdparty/customer/cp_watermark/yuv_img_para.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/packages/apps/FMRadio/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/packages/apps/FMRadio/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/packages/apps/WallpaperPicker/res/values-nodpi/wallpapers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/packages/apps/WallpaperPicker/res/values-nodpi/wallpapers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/packages/overlay/vendor/FrameworkResOverlay/power/res/xml/power_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/packages/overlay/vendor/FrameworkResOverlay/power/res/xml/power_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/tinysys/scp/project/RV55_A/mt6853/k6833v1_64/cust/accGyro/cust_accGyro.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/tinysys/scp/project/RV55_A/mt6853/k6833v1_64/cust/accGyro/cust_accGyro.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/tinysys/scp/project/RV55_A/mt6853/k6833v1_64/project.mk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/tinysys/scp/project/RV55_A/mt6853/k6833v1_64/project.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/tools/ptgen/MT6833/partition_table_emmc_ab.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/tools/ptgen/MT6833/partition_table_emmc_ab.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/trustzone/custom/build/project/k6833v1_64.mk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/trustzone/custom/build/project/k6833v1_64.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/trustzone/trustkernel/source/build/k6833v1_64/array.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/trustzone/trustkernel/source/build/k6833v1_64/array.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/trustzone/trustkernel/source/build/k6833v1_64/cert.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../mediatek/proprietary/trustzone/trustkernel/source/build/k6833v1_64/cert.dat" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="0123456789ABCDEF" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1n2dfA1cqLkeyUDdRorRrxfFpPI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="blackview-bl6000pro-0123456789ABCDEF" />
+    <property name="DEBUGGABLE_PROCESS" value="com.mediatek.camera" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="last_opened_file_path" value="$USER_HOME$/testclock/fragments-viewpager-example-master" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Properties" />
+    <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Android App.DK_AWCamera-host">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DK_AWCamera-host" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="DK_AWCamera-host" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="host" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="host" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Android App.DK_AWCamera-host" />
+      <item itemvalue="Android App.host" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c425f743-b069-420f-b66d-4a38a4f42f07" name="Default Changelist" comment="" />
+      <created>1610592220598</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610592220598</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

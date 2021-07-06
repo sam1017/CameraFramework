@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin
+    id="pibokehplugin"
+    name="pibokeh"
+    version="1">
+
+    <extension
+        id="pibokeh"
+        name="pibokeh extension"
+        class="com.mediatek.camera.feature.mode.pibokeh.PiBokehEntry"
+        plugin-id="cameraplugin"
+        point-id="FeatureEntryBase">
+    </extension>
+</plugin>

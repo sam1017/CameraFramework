@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin
+    id="aiworksfacebeautyplugin"
+    name="aiworksfacebeauty"
+    version="1">
+
+    <extension
+        id="aiworksfacebeauty"
+        name="aiworksfacebeauty extension"
+        class="com.mediatek.camera.feature.mode.aiworksfacebeauty.AiworksFaceBeautyEntry"
+        plugin-id="cameraplugin"
+        point-id="FeatureEntryBase">
+    </extension>
+</plugin>

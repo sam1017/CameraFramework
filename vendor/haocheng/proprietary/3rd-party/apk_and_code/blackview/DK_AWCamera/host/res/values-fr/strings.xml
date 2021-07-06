@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="camera_label">"Appareil photo"</string>
+    <string name="video_camera_label">"Caméra"</string>
+    <string name="accessibility_shutter">"Bouton de l\'obturateur"</string>
+    <string name="accessibility_thumbnail">"Photo la plus récente"</string>
+    <string name="accessibility_mode">Mode caméra</string>
+    <string name="accessibility_setting">"Paramètres"</string>
+    <string name="setting_title">"Paramètres"</string>
+    <string name="mode_fragment_title">Modes</string>
+    <string name="normal_mode_title">"Normale"</string>
+    <string name="saving_dialog_default_string">Enregistrement…</string>
+    <string name="shutter_type_photo">"Image"</string>
+    <string name="shutter_type_video">"Vidéo"</string>
+    <string name="video_recording_not_available">"Veuillez arrêter les autres applications d'enregistrement avant d'utiliser la caméra vidéo."</string>
+    <string name="video_bad_performance_auto_stop">"Espace mémoire faible, arrêt auto de l'enregistrement."</string>
+    <string name="video_bad_performance_drop_quality">Espace mémoire faible, modification auto de la qualité.</string>
+    <string name="video_recording_error">"Erreur lors de l'enregistrement !"</string>
+    <string name="video_reach_size_limit">"Taille maximale atteinte."</string>
+    <string name="can_not_use_storage">Carte SD non disponible</string>
+    <string name="storage_full">"Le stockage par défaut est plein, veuillez libérer de l'espace ou gérer les options de stockage dans les paramètres"</string>
+    <string name="pref_thermal_dialog_title">Avertissement</string>
+    <string name="pref_thermal_dialog_content_launch">"L'appareilsurchauffe,veuillezutiliserl'appareilphotoultérieurement."</string>
+    <string name="pref_thermal_dialog_content">"L'appareilsurchauffeetl'appareilphotovas'éteindreautomatiquementdans30secondes.Veuillezessayerdeleréutiliserultérieurement."</string>
+    <string name="pref_thermal_preview_toast">"Touchez l'écran pour continuer."</string>
+
+    <string name="hct_bokeh_tip">"Afin d’assurer l’effet de prise de vue, veuillez vous assurer que l’objectif n’est pas bloqué"</string>
+    <string name="optimize_picture" translatable="false">En amélioration de qualité des images</string>
+    <string name="more_mode_name">Plus</string>
+    <string name="camera_disabled">En raison des restrictions de politique de sécurité, la caméra a été désactivée.</string>
+    <string name="cannot_connect_camera_new">Impossible de se connecter à la caméra. Assurez-vous de fermer APP qui utilise la caméra ou le flash.</string>
+
+<!--bv sunyue add for Translation start 20201109-->
+ <string name="global_label">Universel</string>
+    <string name="advanced_label">Avancée</string>
+    <string name="mirror_summary">Uniquement efficace lors d\'utiliser la caméra devant</string>
+    <string name="restore_settings">Restaurer les paramètres par défaut</string>
+    <string name="restore_settings_message">Voulez-vous restaurer les paramètres de la caméra par défaut?</string>
+    <string name="detail_title">"Détails"</string>
+    <string name="night_title">Scène nocturne</string>
+    <string name="video_title">Vidéo</string>
+    <string name="photo_title">Photo</string>
+    <string name="beauty_title">Beauté</string>
+    <string name="prof_title">Profession</string>
+    <string name="w4800_title">48 millions</string>
+    <string name="mono_title">Noir et blanc</string>
+    <string name="bokeh_title">Portrait</string>
+    <string name="bokehcolor_title">Portrait coloré</string>
+    <string name="biprotrait_title">Panoramique</string>
+    <string name="night_summary">Après des traitements divers tels que la synthèse multi-images, la réduction du bruit, le HDR en basse lumière, etc., les photos de la scène nocturne deviennent plus pures et plus brillantes.</string>
+    <string name="video_summary">La caméra ajuste automatiquement l\'exposition et la couleur, pour la vidéo plus vive</string>
+    <string name="photo_summary">La caméra ajuste automatiquement l\'exposition et la couleur pour prendre la meilleure photo</string>
+    <string name="beauty_summary">Divers effets d\'embellissement tels que la peau, le blanchiment et le lifting du visage peuvent être appliqués sur les portraits pendant la prise de vue.</string>
+    <string name="prof_summary">Le réglage manuel de la sensibilité, de l\'obturateur, du mode de mise au point et de la balance des blancs est possible pour répondre aux besoins personnalisés de prise de vue divers.</string>
+    <string name="w4800_summary">Une résolution plus élevée et une image plus nette (HDR et la scène nocturne ne peuvent pas être utilisés dans ce mode).</string>
+    <string name="mono_summary">Des effets de photo en noir et blanc réels et naturels sont assurés.</string>
+    <string name="bokeh_summary">L\'arrière-plan peut être flou lors de la prise de vue de personnes.</string>
+    <string name="bokehcolor_summary">Le portrait peut être reconnu en temps réel lorsque la photo est prise, et le fond noir et blanc met en évidence la couleur du portrait.</string>
+    <string name="biprotrait_summary">Le réglage manuel de la sensibilité ISO, de l\'obturateur, de la compensation d\'exposition, du mode de mise au point et de la balance des blancs est possible pour répondre aux besoins personnalisés de prise de vue divers.</string>
+    <string name="ais_summary">Uniquement efficace lorsque le flash et HDR sont désactivés en même temps</string>
+    <string name="slowmotion_mode_summary">Le caméra peut filmer une vidéo à grande vitesse à 120 fps, puis la lire à 30 fps, réalisant un ralenti de 4 fois pour des moments merveilleux.</string>
+<!--bv sunyue add for Translation end 20201109-->
+</resources>

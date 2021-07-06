@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="bokeh_aperture" type="id"></item>
+    <item name="bokeh_aperture_seekbar" type="id"></item>
+    <item name="CameraAperture" type="id"></item>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="location_title" >Localización</string>
+    <string name="location_content_description" >Localización</string>
+    <string name="permission_toast_tip" >Please open the location permission</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="century_facebeauty_buffing">Parlatma</string>
+    <string name="century_facebeauty_eye">Göz</string>
+    <string name="century_facebeauty_ruddy">Kırmızı</string>
+    <string name="century_facebeauty_slimming">Zayıflama</string>
+    <string name="century_facebeauty_whitening">Beyazlatma</string>
+    <string name="century_facebeauty_onekey">Tek dokunuşla\nMakyaj</string>
+    <string name="century_facebeauty_custom">Özel</string>
+</resources>

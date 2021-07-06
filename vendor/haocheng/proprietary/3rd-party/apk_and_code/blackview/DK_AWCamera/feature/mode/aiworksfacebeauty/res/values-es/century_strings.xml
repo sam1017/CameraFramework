@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<string name="century_facebeauty_onekey">Cambio de imagen con un toque</string>
+	<string name="century_facebeauty_buffing">Pulido</string>
+	<string name="century_facebeauty_whitening">Blanqueo</string>
+    <string name="century_facebeauty_ruddy">Rubicundo/Rubicunda</string>
+	<string name="century_facebeauty_slimming">Adelgazar</string>
+
+</resources>

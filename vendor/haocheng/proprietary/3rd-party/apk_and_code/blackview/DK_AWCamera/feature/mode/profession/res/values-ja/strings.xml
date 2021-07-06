@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="accessibility_switch_to_pro">プロ</string>
+    <string name="pro_mode_auto">Auto</string>
+    <string name="pro_mode_wb">WB</string>
+    <string name="pro_mode_exposure">エクスポシシオン</string>
+    <string name="pro_mode_iso">ISO</string>
+    <string name="pro_mode_focus">フォーカス</string>
+     <string name="pro_mode_shutter">シャッター</string>
+    <string name="pro_mode_wb_incandescent">白熱電球</string>
+    <string name="pro_mode_daylight">日光</string>
+    <string name="pro_mode_fluorescent">蛍光</string>
+    <string name="pro_mode_cloudy">曇り</string>
+</resources>

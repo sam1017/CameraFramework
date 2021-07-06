@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="camera_label">"相机"</string>
+    <string name="video_camera_label">"摄像机"</string>
+    <string name="accessibility_shutter">"“快门”按钮"</string>
+    <string name="accessibility_thumbnail">"最新照片"</string>
+    <string name="accessibility_mode">相机模式</string>
+    <string name="accessibility_setting">"设置"</string>
+	<string name="setting_title">"设置"</string>
+    <string name="mode_fragment_title">"模式"</string>
+    <string name="normal_mode_title">"标准"</string>
+    <string name="saving_dialog_default_string">正在保存...</string>
+    <string name="shutter_type_photo">"拍照"</string>
+    <string name="shutter_type_video">"视频"</string>
+	<string name="video_recording_not_available">"无法录影，请检查是否有其他应用程序正在录影。"</string>
+    <string name="video_bad_performance_auto_stop">系统内存不足，自动停止录像。</string>
+    <string name="video_bad_performance_drop_quality">系统内存不足，自动调整录像质量。</string>
+    <string name="video_recording_error">录制时发生错误！</string>
+    <string name="video_reach_size_limit">"已达到大小上限。"</string>
+	<string name="can_not_use_storage">"SD Card 现在无法使用"</string>
+	<string name="storage_full">"默认存储空间不足，请释放部分空间或更改默认存储位置"</string>
+    <string name="cannot_connect_camera_new">无法连接到相机。请确保已关闭会使用相机或闪光灯的应用程序。</string>
+    <string name="camera_disabled">由于安全政策的限制，相机已被停用。"</string>
+    <string name="dialog_ok">"确定"</string>
+    <string name="pref_thermal_dialog_title">警告</string>
+    <string name="pref_thermal_dialog_content_launch">手机温度过高，请稍候再使用相机。</string>
+    <string name="pref_thermal_dialog_content">手机温度过高，相机将在30秒后自动退出。请稍候再使用相机。</string>
+    <string name="pref_thermal_preview_toast">輕觸螢幕後繼續。</string>
+    <string name="multi_window_mode_toast_lct">"相机不支持分屏模式"</string>
+    <string name="hct_under_water_tips">该界面不允许触摸屏功能，按电源按钮退出。</string>
+    <string name="hct_bokeh_tip">"为了确保拍摄效果，请确保镜头未被遮挡"</string>
+    <string name="more_mode_name">更多</string>
+    <string name="macro_lens_camera_toast">请在四公分以内进行微距拍摄。</string>
+    <!-- end, wangsenhao, for macro lens camera toast, 2020.04.07 -->
+    <string name="optimize_picture" translatable="false">正在优化图片质量</string>
+    <!-- bv wuyonglin add for setting ui 20200923 start -->
+    <string name="global_label">通用</string>
+    <string name="advanced_label">高级</string>
+    <string name="mirror_summary">仅在前置拍照时有效果</string>
+    <string name="restore_settings">恢复默认设置</string>
+    <string name="restore_settings_message">是否将相机设置恢复为默认值？</string>
+    <!-- bv wuyonglin add for setting ui 20200923 end -->
+    <string name="detail_title">"详情"</string>
+
+    <string name="night_title">夜景</string>
+    <string name="video_title">视频</string>
+    <string name="photo_title">照片</string>
+    <string name="beauty_title">美颜</string>
+    <string name="prof_title">专业</string>
+    <string name="w4800_title">4800万</string>
+    <string name="mono_title">黑白</string>
+    <string name="bokeh_title">人像</string>
+    <string name="bokehcolor_title">人像留彩</string>
+    <string name="biprotrait_title">全景</string>
+    <string name="night_summary">经过多帧合成、降噪、低光HDR等多种处理，让夜景照片变得更加纯净、明亮。</string>
+    <string name="video_summary">相机会自动调整曝光和色彩，录制视频更生动。</string>
+    <string name="photo_summary">相机会自动调整曝光和色彩，拍摄出最佳照片。</string>
+    <string name="beauty_summary">拍摄时可对人像进行磨皮、美白、瘦脸等各种美颜效果。</string>
+    <string name="prof_summary">支持手动调节感光度、快门速度、对焦方式、白平衡，满足多样化、个性化拍摄需求。</string>
+    <string name="w4800_summary">分辨率更高，成像更锐利（该模式下无法使用HDR和夜景）。</string>
+    <string name="mono_summary">拍摄出真实自然的黑白照片效果。</string>
+    <string name="bokeh_summary">拍摄人物时可对背景进行虚化。</string>
+    <string name="bokehcolor_summary">拍摄照片时可实时识别人像，黑白的背景凸显 人像色彩。</string>
+    <string name="biprotrait_summary">支持手动调节ISO感光度、快门、曝光补偿、对焦方式、白平衡，满足多样化、个性化拍摄需求。</string>
+    <string name="ais_summary">仅在闪光灯和HDR同时关闭时有效果</string>
+    <string name="slowmotion_mode_summary">相机可以拍摄120fps的高速视频，然后以30fps回放，实现4倍慢动作，放慢精彩瞬间。</string>
+</resources>

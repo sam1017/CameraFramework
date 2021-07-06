@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bv_background_color"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/menu_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/divider_line_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_menu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/menu_button"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="30dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center_vertical"
+                android:textColor="@color/bv_title_color"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/menu_summary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center_vertical"
+                android:textColor="?android:attr/textColorSecondary"
+                android:textSize="@dimen/top_level_summary_text_size" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/checked_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="30dp"
+            android:src="@drawable/selected_indicator" />
+
+    </LinearLayout>
+</LinearLayout>

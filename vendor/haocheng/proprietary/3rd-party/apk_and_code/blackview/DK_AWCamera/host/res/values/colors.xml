@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="camera_gray_background">#1b1b1b</color>
+    <!-- bv wuyonglin add for setting ui 20200923 start -->
+    <color name="setting_title_background">#ffffffff</color>
+    <!-- bv wuyonglin add for setting ui 20200923 end -->
+    <color name="shutter_title_select_color">#ffc401</color>
+    <color name="shutter_title_normal_color">#ffffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent_background">#0000</color>
+    <color name="icon_launcher_camera_color">#ccd0d9</color>    
+    <color name="btn_bg_color">#801e1e1e</color>
+    <color name="more_transparent_background">#D8000000</color>
+    <color name="more_mode_title_bg_color">#661e1e1e</color>
+    <color name="tripleswitch_background">#661e1e1e</color>
+    <!-- bv wuyonglin add for setting ui 20200923 start -->
+    <color name="thumb_color">#fafafa</color>
+    <color name="track_on_color">#3478F6</color>
+    <color name="track_off_color">#D8D8D8</color>
+    <color name="track_on_unabled_color">#663478F6</color>
+    <color name="track_off_unabled_color">#66D8D8D8</color>
+    <color name="bv_category_title_color">#818181</color>
+    <color name="divider_line_color">#dcdcdc</color>
+    <color name="ic_arrow_back_background">#ff000000</color>
+    <color name="bv_setting_title_color">#1e1e1e</color>
+    <color name="bv_background_color">#fafafa</color>
+    <color name="bv_title_color">#1e1e1e</color>
+    <!-- bv wuyonglin add for setting ui 20200923 end -->
+    <color name="text_view_font">#FFFFFFFF</color>
+    <color name="bv_detail_title_color">#000000</color>
+</resources>

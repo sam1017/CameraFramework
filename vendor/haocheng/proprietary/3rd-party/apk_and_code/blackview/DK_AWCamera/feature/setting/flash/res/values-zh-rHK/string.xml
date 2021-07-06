@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="flash_low_battery_warning">電量過低已經禁用閃光燈</string>
+    <string name="flash_open_warning">閃光燈打開</string>
+    <string name="flash_always_bright_warning">閃光燈長亮</string>
+</resources>

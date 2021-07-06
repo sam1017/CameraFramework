@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/triple_switch_horizontal_item_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    <com.mediatek.camera.common.widget.RotateImageView
+        android:id="@+id/triple_switch_icon"
+		android:layout_width="@dimen/triple_switch_icon_height"
+		android:layout_height="@dimen/triple_switch_icon_height"
+        android:layout_centerInParent="true"
+		android:background="@drawable/triple_button_background"
+        />
+</FrameLayout>

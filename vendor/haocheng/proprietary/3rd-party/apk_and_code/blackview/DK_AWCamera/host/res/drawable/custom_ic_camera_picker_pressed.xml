@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/custom_ic_camera_picker_rotating">
+    <target
+        android:name="w_circle"
+        android:animation="@anim/anim_rotation"
+        />
+
+</animated-vector>

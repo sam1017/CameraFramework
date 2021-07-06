@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pro_ui"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="invisible"
+    android:layout_marginBottom="@dimen/long_exposure_margin_bottom">
+
+    <FrameLayout
+        android:id="@+id/pro_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:visibility="visible">
+
+        <!--bv wuyonglin modify for long exposure take picture button position from 79dp to 70dp 20200219 start-->
+        <com.mediatek.camera.common.widget.RotateImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:clickable="true"
+            android:gravity="center"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_shutter_photo"/>
+
+        <com.mediatek.camera.feature.mode.pro.LongExposureView
+            android:id="@+id/pro_progress"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:roundColor="@android:color/transparent"
+            app:roundProgressColor="@android:color/holo_orange_dark"/>
+        <!--bv wuyonglin modify for long exposure take picture button position from 79dp to 70dp 20200219 end-->
+    </FrameLayout>
+</RelativeLayout>

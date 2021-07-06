@@ -1,0 +1,215 @@
+<!-- 请修改该配置文件后,集成到/system/etc/目录下面 -->
+<!-- 各个选项请不要修改对应的key值,只修改defaultValue的值,在取值范围内选取,设置取值范围之外的值则为无效值 -->
+
+<CameraPreferences>
+    <!-- HDR配置参数-->
+    <Item>
+        <key>pref_hdr_back_config_key</key>
+        <defaultValue>{
+            <!-- 项目识别码，没啥用处，只是标识一下，可以辨认-->
+            "productName":"BL_A90_back_0419",
+
+            <!-- 摄像头ID，默认为0 -->
+            "cameraID":"0",
+            <!-- 拍照分辨率，如"4000x3000"，需要先打开摄像头并通过log(supportedPhotoSizes)来确认支持哪些分辨率 -->
+            "photoSize":"",
+            <!-- 35 for YUV and 256 for JPEG -->
+            "photoForamt":"35",
+            "comment": "5-TEMPLATE_ZERO_SHUTTER_LAG 2-TEMPLATE_STILL_CAPTURE",
+            "tempLateType":2,
+            <!-- 人脸或人像保护，0 for face and 1 for portrait -->
+            "maskMode":0,
+            "blurMode":false,
+
+            "manualExp":true,
+            "maxExp":400000000,
+            "minExp":100000,
+            "maxSensitity":3200,
+            "minSensitity":100,
+            "maxDgain":100,
+            "minDgain":100,
+
+            <!-- 手动曝光策略
+            "brightenCoeff": 过曝提亮系数
+            "darkenTimes": 欠曝的变暗基准倍数
+            "darkenRate": 欠曝倍数的变化曲率
+            -->
+            "brightenCoeff":1.6,
+            "minBrightenTimes":2.2,
+            "maxBrightenTimes":4.0,
+            "darkenTimes":1.3,
+            "darkenRate":1.0,
+            "normalBrighten":false,
+
+            "MaxExposure": 4,
+            "MidExposure": 0,
+            "MinExposure": -4,
+
+            "saturation": 1.0,
+
+            "comment": "EDGE 0-OFF 1-FAST 2-HIGH_QUALITY 3-ZERO_SHUTTER_LAG",
+            "edgeMode1": 2,
+            "edgeMode2": 2,
+            "edgeMode3": 2,
+            "comment2": "NOISE 0-OFF 1-FAST 2-HIGH_QUALITY 3-MINIMAL 4-ZERO_SHUTTER_LAG",
+            "noiseMode1": 2,
+            "noiseMode2": 2,
+            "noiseMode3": 2,
+            "minNum": 1,
+            "midNum": 1,
+            "maxNum": 1,
+            "minMfnr": false,
+            "midMfnr": true,
+            "maxMfnr": true,
+
+            "CAPTURE_ORDER_ASCE":false,
+            "FACE_AE_ENABLE":true,
+            "MTK_MFNR_ENABLE":false,
+            "SOFT_MFNR_ENABLE":false,
+            "HDR_NR_LEVEL":2,
+            "HDR_NR_ENABLE":false,
+            "HDR_DG_ENABLE":true
+            }
+        </defaultValue>
+    </Item>
+    <!-- HDR配置参数-->
+    <Item>
+        <key>pref_hdr_front_config_key</key>
+        <defaultValue>{
+            <!-- 项目识别码，没啥用处，只是标识一下，可以辨认-->
+            "productName":"BL_A90_front_0415",
+
+            <!-- 摄像头ID，默认为0 -->
+            "cameraID":"1",
+            <!-- 拍照分辨率，如"4000x3000"，需要先打开摄像头并通过log(supportedPhotoSizes)来确认支持哪些分辨率 -->
+            "photoSize":"",
+            <!-- 35 for YUV and 256 for JPEG -->
+            "photoForamt":"35",
+            "comment": "5-TEMPLATE_ZERO_SHUTTER_LAG 2-TEMPLATE_STILL_CAPTURE",
+            "tempLateType":2,
+            <!-- 人脸或人像保护，0 for face and 1 for portrait -->
+            "maskMode":-1,
+            "blurMode":false,
+
+            "manualExp":true,
+            "maxExp":400000000,
+            "minExp":100000,
+            "maxSensitity":3200,
+            "minSensitity":100,
+            "maxDgain":100,
+            "minDgain":100,
+
+            <!-- 手动曝光策略
+            "brightenCoeff": 过曝提亮系数
+            "darkenTimes": 欠曝的变暗基准倍数
+            "darkenRate": 欠曝倍数的变化曲率
+            -->
+            "brightenCoeff":1.0,
+            "minBrightenTimes":2.2,
+            "maxBrightenTimes":4.0,
+            "darkenTimes":1.4,
+            "darkenRate":1.0,
+            "normalBrighten":false,
+
+            "MaxExposure": 4,
+            "MidExposure": 0,
+            "MinExposure": -4,
+
+            "saturation": 1.1,
+
+            "comment": "EDGE 0-OFF 1-FAST 2-HIGH_QUALITY 3-ZERO_SHUTTER_LAG",
+            "edgeMode1": 2,
+            "edgeMode2": 2,
+            "edgeMode3": 2,
+            "comment2": "NOISE 0-OFF 1-FAST 2-HIGH_QUALITY 3-MINIMAL 4-ZERO_SHUTTER_LAG",
+            "noiseMode1": 2,
+            "noiseMode2": 2,
+            "noiseMode3": 2,
+            "minNum": 1,
+            "midNum": 1,
+            "maxNum": 1,
+            "minMfnr": false,
+            "midMfnr": true,
+            "maxMfnr": true,
+
+            "CAPTURE_ORDER_ASCE":false,
+            "FACE_AE_ENABLE":true,
+            "MTK_MFNR_ENABLE":false,
+            "SOFT_MFNR_ENABLE":false,
+            "HDR_NR_LEVEL":2,
+            "HDR_NR_ENABLE":false,
+            "HDR_DG_ENABLE":true
+            }
+        </defaultValue>
+    </Item>
+    <!-- HDR配置参数-->
+    <Item>
+        <key>pref_hdr_wide_config_key</key>
+        <defaultValue>{
+            <!-- 项目识别码，没啥用处，只是标识一下，可以辨认-->
+            "productName":"BL_A90_wide_0415",
+
+            <!-- 摄像头ID，默认为0 -->
+            "cameraID":"2",
+            <!-- 拍照分辨率，如"4000x3000"，需要先打开摄像头并通过log(supportedPhotoSizes)来确认支持哪些分辨率 -->
+            "photoSize":"",
+            <!-- 35 for YUV and 256 for JPEG -->
+            "photoForamt":"35",
+            "comment": "5-TEMPLATE_ZERO_SHUTTER_LAG 2-TEMPLATE_STILL_CAPTURE",
+            "tempLateType":2,
+            <!-- 人脸或人像保护，0 for face and 1 for portrait -->
+            "maskMode":0,
+            "blurMode":false,
+
+            "manualExp":true,
+            "maxExp":400000000,
+            "minExp":100000,
+            "maxSensitity":3200,
+            "minSensitity":100,
+            "maxDgain":100,
+            "minDgain":100,
+
+            <!-- 手动曝光策略
+            "brightenCoeff": 过曝提亮系数
+            "darkenTimes": 欠曝的变暗基准倍数
+            "darkenRate": 欠曝倍数的变化曲率
+            -->
+            "brightenCoeff":2.0,
+            "minBrightenTimes":2.2,
+            "maxBrightenTimes":4.0,
+            "darkenTimes":1.6,
+            "darkenRate":1.0,
+            "normalBrighten":true,
+
+            "MaxExposure": 4,
+            "MidExposure": 0,
+            "MinExposure": -4,
+
+            "saturation": 1.2,
+
+            "comment": "EDGE 0-OFF 1-FAST 2-HIGH_QUALITY 3-ZERO_SHUTTER_LAG",
+            "edgeMode1": 2,
+            "edgeMode2": 2,
+            "edgeMode3": 2,
+            "comment2": "NOISE 0-OFF 1-FAST 2-HIGH_QUALITY 3-MINIMAL 4-ZERO_SHUTTER_LAG",
+            "noiseMode1": 2,
+            "noiseMode2": 2,
+            "noiseMode3": 2,
+            "minNum": 1,
+            "midNum": 1,
+            "maxNum": 1,
+            "minMfnr": false,
+            "midMfnr": false,
+            "maxMfnr": false,
+
+            "CAPTURE_ORDER_ASCE":false,
+            "FACE_AE_ENABLE":true,
+            "MTK_MFNR_ENABLE":false,
+            "SOFT_MFNR_ENABLE":false,
+            "HDR_NR_LEVEL":2,
+            "HDR_NR_ENABLE":false,
+            "HDR_DG_ENABLE":true
+            }
+        </defaultValue>
+    </Item>
+</CameraPreferences>

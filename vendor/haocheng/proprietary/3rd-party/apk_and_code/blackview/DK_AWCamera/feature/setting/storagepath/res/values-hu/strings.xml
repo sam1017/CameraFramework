@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="storage_path_title">Tárolási út</string>
+    <string name="storage_path_internal">Belső tárhely</string>
+    <string name="storage_path_external">SD-kártya</string>
+    <string name="no_sdcard">Hiányzó SD-kártya</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="flash_low_battery_warning">La batterie est trop faible et le flash a été désactivé.</string>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mediatek.camera.common.preference.Preference
+        android:key="key_continuous_shot_num"
+        android:title="@string/continuous_shot_title"
+        android:persistent="false"
+        style="@style/continuous_shot_order_style"        
+        />
+</PreferenceScreen>

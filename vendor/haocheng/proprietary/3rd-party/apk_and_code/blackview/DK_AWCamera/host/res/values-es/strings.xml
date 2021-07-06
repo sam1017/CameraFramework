@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="camera_label">"Cámara"</string>
+    <string name="video_camera_label">"Videocámara"</string>
+    <string name="accessibility_shutter">"Botón del obturador"</string>
+    <string name="accessibility_thumbnail">"Foto más reciente"</string>
+    <string name="accessibility_mode">Modo Cámara</string>
+    <string name="accessibility_setting">"Ajustes"</string>
+    <string name="setting_title">"Ajustes"</string>
+    <string name="mode_fragment_title">Modos</string>
+    <string name="normal_mode_title">"Normal"</string>
+    <string name="saving_dialog_default_string">Guardando...</string>
+    <string name="shutter_type_photo">"Imagen"</string>
+    <string name="shutter_type_video">"Vídeo"</string>
+    <string name="video_recording_not_available">Detenga otras aplicaciones de grabación antes de utilizar la videocámara.</string>
+    <string name="video_bad_performance_auto_stop">Queda poca memoria; grabación detenida automáticamente.</string>
+    <string name="video_bad_performance_drop_quality">Queda poca memoria; calidad cambiada automáticamente.</string>
+    <string name="video_recording_error">¡Error durante la grabación!</string>
+    <string name="video_reach_size_limit">"Se ha alcanzado el límite de tamaño."</string>
+    <string name="can_not_use_storage">Tarjeta SD no disponible</string>
+    <string name="storage_full">El almacenamiento predeterminado está lleno. Libere algo de espacio o administre las opciones de almacenamiento en la configuración.</string>
+    <string name="cannot_connect_camera_new">No se puede conectar a la cámara. Por favor, asegúrese de cerrar otras aplicaciones que puedan usar la cámara o la linterna.</string>
+    <string name="camera_disabled">La cámara ha sido desactivada debido a las políticas de seguridad.</string>
+    <string name="dialog_ok">OK</string>
+    <string name="pref_thermal_dialog_title">Advertencia</string>
+    <string name="pref_thermal_dialog_content_launch">Latemperaturadeldispositivoesdemasiadoalta.Utilicelacámaramástarde.</string>
+    <string name="pref_thermal_dialog_content">Latemperaturadeldispositivoesdemasiadoaltaylacámarasaldráautomáticamenteen30segundos.Intenteutilizarlamástarde.</string>
+    <string name="pref_thermal_preview_toast">Toque la pantalla para continuar.</string>
+    <!-- start, wangsenhao, for macro lens camera toast, 2020.04.07 -->
+    <string name="macro_lens_camera_toast">por favor tome las fotos macro a una distancia de 4 cm.</string>
+    <!-- end, wangsenhao, for macro lens camera toast, 2020.04.07 -->
+    <string name="multi_window_mode_toast_lct">"La cámara no admite el modo de ventana múltiple"</string>
+    <string name="rotation_action">"Por favor, gire el teléfono"</string>
+    <string name="rotation_purpose">"gira el teléfono para hacer que la cámara frontal en la parte superior dispare a la persona más hermosa"</string>
+    <string name="rotation_button">"Lo tengo"</string>
+    <string name="hct_video_recording_error">La aplicación de grabación se ejecuta en segundo plano y no puede ser grabación de video. Por favor, apague la grabación y vuelva a intentarlo.</string>
+    <string name="hct_under_water_tips">La función de pantalla táctil no está permitida en esta interfaz, presione el botón de encendido para salir</string>
+    <string name="hct_bokeh_tip">"Para asegurar el efecto fotográfico, asegúrese de que la lente no esté bloqueada."</string>
+    <string name="select_path_prompt">Seleccione el error de ruta de la tarjeta SD</string>
+    <string name="optimize_picture" translatable="false">Está optimizando la calidad de imagen.</string>
+    <string name="more_mode_name">Más</string>
+
+
+<!--bv sunyue add for Translation start 20201109-->
+   <string name="global_label">General</string>
+    <string name="advanced_label">Avanzada</string>
+    <string name="mirror_summary">Eficaz sólo cuando se toman fotos cn la cámara frontal</string>
+    <string name="restore_settings">Restaurar la configuración predeterminada</string>
+    <string name="restore_settings_message">¿Desea restaurar la configuración de la cámara al valor predeterminado?</string>
+    <string name="detail_title">Detalles</string>
+    <string name="night_title">Noche</string>
+    <string name="video_title">Video</string>
+    <string name="photo_title">Foto</string>
+    <string name="beauty_title">Belleza</string>
+    <string name="prof_title">Profesional</string>
+    <string name="w4800_title">48 millones</string>
+    <string name="mono_title">Blanco y Negro</string>
+    <string name="bokeh_title">Retrato</string>
+    <string name="bokehcolor_title">La imagen pintada de la persona </string>
+    <string name="biprotrait_title">Panorámica</string>
+    <string name="night_summary">Hacer las fotos de escenas nocturnas más puras y brillantes a través de la síntesis de multi-fotograma, reducción de ruido, HDR con poca luz y otros procesamientos</string>
+    <string name="video_summary">La cámara ajusta automáticamente la exposición y el color para grabar vídeo de forma más vívida</string>
+    <string name="photo_summary">La cámara ajusta automáticamente la exposición y el color para obtener la mejor imagen</string>
+    <string name="beauty_summary">Al tomar la imagen,  se puede pulir, blanquear, hacer la cara delgada y otros efectos de belleza.</string>
+    <string name="prof_summary">Permite el ajuste manual de la sensibilidad del lumen, la velocidad del obturador, el modo de enfoque, el balance de blanco para satisfacer las diversas y personalizadas necesidades de fotografía.</string>
+    <string name="w4800_summary">Mayor resolución e imágenes más nítidas (HDR y escenas nocturnas no están disponibles en este modo).</string>
+    <string name="mono_summary">Tome un verdadero efecto de foto en blanco y negro.</string>
+    <string name="bokeh_summary">El fondo se puede difuminar al tomar foto de  personajes.</string>
+    <string name="bokehcolor_summary">Al tomar fotos, puede reconocer las imagenes en tiempo real, y el fondo en blanco y negro resalta los colores de las imágenes de persona.</string>
+    <string name="biprotrait_summary">Permite el ajuste manual de sensibilidad ISO, obturador, compensación de exposición, modo de enfoque, balance de blanco para satisfacer diversas y personalizadas necesidades de fotografía.</string>
+    <string name="ais_summary">Es eficaz sólo cuando el flash y HDR están apagados al mismo tiempo</string>
+    <string name="slowmotion_mode_summary">La cámara puede grabar vídeo de alta velocidad a 120fps y luego reproducirlo a 30fps, logrando cámara lenta  4x y ralentizando el momento.</string>
+<!--bv sunyue add for Translation end 20201109-->
+</resources>

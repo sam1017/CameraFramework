@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="storage_path_title">存儲路徑</string>
+    <string name="storage_path_internal">內部存儲</string>
+    <string name="storage_path_external">SD卡存儲</string>
+    <string name="no_sdcard">沒有檢測到SD卡</string>
+</resources>

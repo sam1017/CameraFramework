@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- When an activity requests a theme with an action bar from its manifest,
+         the activity preview window created by the system process while the
+         real activity is loading will also contain an action bar. Set this to
+         NoActionBar and change the theme in onCreate. -->
+     <style name="ThemeCamera" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="panelBackground">@*android:drawable/menu_hardkey_panel_holo_dark</item>
+        <item name="panelMenuListTheme">@*android:style/Theme.Material.CompactMenu</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowTranslucentStatus">true</item>     <!-- bv wuyonglin add for setting ui 20200923 -->
+        <item name="android:forceDarkAllowed">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+
+    </style>
+    <style name="RecordingLayout" parent="ScreenMargin">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="ScreenMargin">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+    </style>
+    <style name="RecordingSizeProgress">
+        <item name="android:layout_width">264dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:color">#F19A21</item>
+        <item name="android:minHeight">4dp</item>
+        <item name="android:maxHeight">4dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="ReviewIconGroup">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="ReviewControlIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <!-- bv wuyonglin add for setting ui 20200923 start -->
+    <style name="location_order_style">
+        <item name="android:order">1</item>
+    </style>
+    <style name="camera_sound_order_style">
+        <item name="android:order">2</item>
+    </style>
+    <style name="shutter_order_style">
+        <item name="android:order">3</item>
+    </style>
+    <style name="video_order_style">
+        <item name="android:order">4</item>
+    </style>
+    <style name="picturesize_order_style">
+        <item name="android:order">5</item>
+    </style>
+    <style name="video_quality_order_style">
+        <item name="android:order">6</item>
+    </style>
+    <style name="continuous_shot_order_style">
+        <item name="android:order">7</item>
+    </style>
+    <style name="self_timer_order_style">
+        <item name="android:order">8</item>
+    </style>
+    <style name="mirror_order_style">
+        <item name="android:order">9</item>
+    </style>
+    <style name="ais_order_style">
+        <item name="android:order">10</item>
+    </style>
+    <style name="ultrawide_order_style">
+        <item name="android:order">11</item>
+    </style>
+    <style name="eis_order_style">
+        <item name="android:order">12</item>
+    </style>
+    <style name="microphone_order_style">
+        <item name="android:order">13</item>
+    </style>
+    <style name="gridlines_order_style">
+        <item name="android:order">14</item>
+    </style>
+    <style name="water_mark_order_style">
+        <item name="android:order">15</item>
+    </style>
+    <style name="advanced_order_style">
+        <item name="android:order">16</item>
+    </style>
+    <style name="antibanding_order_style">
+        <item name="android:order">17</item>
+    </style>
+    <style name="storage_path_order_style">
+        <item name="android:order">18</item>
+    </style>
+    <style name="CustomProgressStyle" parent="@android:style/Widget.DeviceDefault.ProgressBar">
+    <item name="android:indeterminateDrawable">@drawable/progress_small</item>
+    <item name="android:minWidth">35dp</item>
+    <item name="android:maxWidth">35dp</item>
+    <item name="android:minHeight">35dp</item>
+    <item name="android:maxHeight">35dp</item>
+</style>
+    <style name="Theme.toolbar" parent="Theme.AppCompat.DayNight.DarkActionBar">
+    </style>
+
+    <style name="bvpreferenceFragmentListStyle">
+        <item name="paddingStart">1dp</item>
+        <item name="paddingEnd">1dp</item>
+        <item name="paddingBottom">0dp</item>
+    </style>
+
+    <style name="BvDialogStyleAnimation"  parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/bv_dialog_bottom_enter</item>
+        <item name="android:windowExitAnimation">@anim/bv_dialog_bottom_exit</item>
+    </style>
+    <!-- bv wuyonglin add for setting ui 20200923 end -->
+</resources>

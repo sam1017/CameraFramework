@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Accessibility -->
+    <string name="continuous_saving_pictures">Saving <xliff:g id="numbers" example="10">%1$d</xliff:g> pictures</string>
+
+    <!-- @{ hct.huangfei, 20201027.continuous shot numbers -->
+    <string name="continuous_unsupport_mode">Current mode does not support continuous shoot</string>
+    <string name="continuous_unsupport_watermark">Continuous shot does not support when water mark is on,please turn off the water mark and try again</string>   
+    <string name="continuous_shot_title">Continuous shot</string>
+    <string name="continuous_shot_content_description" translatable="false">@string/continuous_shot_title</string>
+    <string name="self_timer_entry_off">off</string>
+    <string name="continuous_shot_num_20">20 pictures</string>
+    <string name="continuous_shot_num_10">10 pictures</string>
+    <!-- @} -->
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="camera_mirror_title" >Зеркальное отражение</string>
+    <string name="camers_mirror_content_description" >Зеркальное отражение</string>
+</resources>

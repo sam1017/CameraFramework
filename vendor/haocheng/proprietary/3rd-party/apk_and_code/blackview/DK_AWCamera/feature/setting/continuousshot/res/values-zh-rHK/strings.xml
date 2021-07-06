@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="continuous_saving_pictures">正在儲存 <xliff:g id="numbers" example="10">%1$d</xliff:g> 張相片</string>
+
+    <!-- @{ hct.huangfei, 20201027.continuous shot numbers -->
+    <string name="continuous_unsupport_mode">當前模式不支持連拍</string> 
+    <string name="continuous_shot_title">連拍</string>
+    <string name="continuous_shot_num_20">20張</string>
+    <string name="continuous_shot_num_10">10張</string>
+    <string name="continuous_unsupport_watermark">打開水印不支持連拍，請關閉水印後再嘗試</string>
+    <!-- @} -->
+</resources>

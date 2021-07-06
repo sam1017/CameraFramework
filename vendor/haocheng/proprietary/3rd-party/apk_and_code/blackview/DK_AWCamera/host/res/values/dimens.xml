@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mode_transition_view_icon_size">64dp</dimen>
+    <dimen name="quick_switcher_margin_right_dp">11dp</dimen>
+    <!-- bv wuyonglin add for setting ui 20200923 start -->
+    <dimen name="bv_category_text_size">12sp</dimen>
+    <dimen name="bv_title_text_size">17sp</dimen>
+    <dimen name="bv_title_textview_width">240dp</dimen>
+    <dimen name="top_level_title_text_size">16sp</dimen>
+    <dimen name="top_level_summary_text_size">13sp</dimen>
+    <dimen name="top_level_bvpreference_left_padding">15dp</dimen>
+    <dimen name="top_level_bvpreference_right_padding">15dp</dimen>
+    <dimen name="top_level_bvpreference_top_padding">2dp</dimen>
+    <dimen name="top_level_bvpreference_bottom_padding">2dp</dimen>
+    <dimen name="top_level_icon_left_padding">4dp</dimen>
+    <dimen name="top_level_icon_right_padding">19dp</dimen>
+    <dimen name="top_level_summary_top_padding">1dp</dimen>
+    <dimen name="top_level_text_left_padding">7dp</dimen>
+    <integer name="preference_fragment_scrollbarStyle">0x02000000</integer>
+    <dimen name="switch_preference_margin_left">6dp</dimen>
+    <!-- bv wuyonglin add for setting ui 20200923 end -->
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin
+    id="pifacebeautyplugin"
+    name="pifacebeauty"
+    version="1">
+
+    <extension
+        id="pifacebeauty"
+        name="pifacebeauty extension"
+        class="com.mediatek.camera.feature.mode.pifacebeauty.PiFaceBeautyEntry"
+        plugin-id="cameraplugin"
+        point-id="FeatureEntryBase">
+    </extension>
+</plugin>

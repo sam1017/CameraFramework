@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="thumb_color">#e6e6e6</color>
+    <color name="track_on_color">#2762d0</color>
+    <color name="track_off_color">#3c3c3c</color>
+    <color name="divider_line_color">#dcdcdc</color>
+    <color name="ic_arrow_back_background">#ffffffff</color>
+    <color name="bv_setting_title_color">#B3FFFFFF</color>
+    <color name="track_on_unabled_color">#662762d0</color>
+    <color name="bv_background_color">#000000</color>
+    <color name="bv_title_color">#e6e6e6</color>
+</resources>

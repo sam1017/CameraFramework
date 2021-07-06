@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="accessibility_switch_to_pro">Pro</string>
+    <string name="pro_mode_auto">Auto</string>
+    <string name="pro_mode_wb">WB</string>
+    <string name="pro_mode_exposure">Exposition</string>
+    <string name="pro_mode_iso">ISO</string>
+    <string name="pro_mode_focus">Focus</string>
+     <string name="pro_mode_shutter">Obturateur</string>
+    <string name="pro_mode_wb_incandescent">Lampe à incandescence</string>
+    <string name="pro_mode_daylight">Lumière du soleil</string>
+    <string name="pro_mode_fluorescent">Fluorescence</string>
+    <string name="pro_mode_cloudy">Temps nuageux</string>
+</resources>

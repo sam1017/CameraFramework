@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="century_facebeauty_buffing">lucidatura</string>
+    <string name="century_facebeauty_eye">Ingrandimento</string>
+    <string name="century_facebeauty_ruddy">Rubicundo/Rubicunda</string>
+    <string name="century_facebeauty_slimming">dimagrante</string>
+    <string name="century_facebeauty_whitening">sbiancamento</string>
+    <string name="century_facebeauty_onekey">Rinnovo con un solo tocco</string>
+    <string name="century_facebeauty_custom">Personalizzato</string>
+</resources>

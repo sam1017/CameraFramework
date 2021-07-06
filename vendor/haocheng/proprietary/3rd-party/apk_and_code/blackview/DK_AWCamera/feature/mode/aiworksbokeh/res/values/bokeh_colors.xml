@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bokeh_aperture_blade_color">#CCAAABAB</color>
+    <color name="bokeh_aperture_background_color">#FFFFFFFF</color>
+    <!--bv wuyonglin modify for adjust BrokehMode view 20200227 start-->
+    <color name="bokeh_seekbar_progress_color">#ffc401</color>
+    <!--bv wuyonglin modify for adjust BrokehMode view 20200227 end-->
+    <!--bv wuyonglin add for adjust BrokehMode view 20200227 start-->
+    <color name="bokeh_seekbar_progress_color1">#FFFFFFFF</color>
+    <!--bv wuyonglin add for adjust BrokehMode view 20200227 end-->
+    <!--bv wuyonglin add for adjust BrokehMode view progress color 20200309 start-->
+    <color name="bokeh_seekbar_progress_color2">#4dffffff</color>
+    <!--bv wuyonglin add for adjust BrokehMode view progress color 20200309 end-->
+</resources>

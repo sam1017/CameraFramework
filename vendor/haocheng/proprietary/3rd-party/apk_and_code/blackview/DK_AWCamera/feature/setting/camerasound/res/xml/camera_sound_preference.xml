@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mediatek.camera.common.preference.SwitchPreference
+        android:key="key_camera_sound"
+        android:title="@string/camera_sound_title"
+        android:persistent="false"
+        style="@style/camera_sound_order_style"
+        />
+</PreferenceScreen>

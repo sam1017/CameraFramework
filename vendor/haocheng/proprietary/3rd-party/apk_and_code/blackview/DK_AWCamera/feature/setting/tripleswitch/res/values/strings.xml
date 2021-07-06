@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="triple_switch_macro_title">Macro</string>
+    <string name="triple_switch_night_title">Night</string>
+    <string name="triple_switch_normal_title">Normal</string>
+    <string name="triple_switch_Wide_title">Wide</string>
+    <string name="triple_switch_zoom_title">x2</string>
+</resources>

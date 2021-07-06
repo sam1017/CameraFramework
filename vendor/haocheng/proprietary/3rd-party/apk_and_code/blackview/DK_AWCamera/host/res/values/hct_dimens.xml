@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="camera_tool_bar_height">56dp</dimen>
+    <dimen name="camera_shutter_bar_title_gap">33dp</dimen>
+    <dimen name="camera_shutter_bar_title_right_margin">40dp</dimen>
+    <dimen name="camera_thumbnail_adjust">6dp</dimen>
+
+    <!--for 16:9-->
+    <dimen name="camera_shutter_bar_height">203.7dp</dimen>  <!--bv wuyonglin modify for adjust all icon position 20200309 -->
+    <dimen name="navigation_bar_height_adust">0dp</dimen>  <!--bv wuyonglin modify for adjust all icon position 20200309 -->
+    <dimen name="camera_preview_margin_top_full_for_16_9">42dp</dimen>
+    <!-- bv wuyonglin add for screen 1440px adjust all icon position 20200709 start -->
+	<dimen name="camera_preview_margin_top">57dp</dimen>
+	<dimen name="camera_preview_margin_top_1440px">67dp</dimen>
+    <!-- bv wuyonglin add for screen 1440px adjust all icon position 20200709 end -->
+    <dimen name="camera_preview_toast_margin_top">115dp</dimen>
+    <!-- bv liangchangwei add for screen toast icon position 20200714  -->
+
+    <dimen name="camera_shutter_bar_title_margin_bottom">188dp</dimen>
+    <dimen name="camera_effect_margin_Bottom">0dp</dimen>
+    <dimen name="camera_thumbnail_margin_Bottom">79dp</dimen>
+    <dimen name="camera_shutter_margin_Bottom">65dp</dimen>
+    <dimen name="video_shutter_root_margin_Bottom">50dp</dimen>
+    <dimen name="camera_video_stop_margin_Bottom">15dp</dimen>	<!--bv wuyonglin modify for adjust all icon position 20191226 -->
+    <dimen name="camera_video_pause_margin_Bottom">29dp</dimen>	<!--bv wuyonglin modify for adjust all icon position 20191226 -->
+    <dimen name="camera_video_vss_margin_Bottom">29dp</dimen>	<!--bv wuyonglin modify for adjust all icon position 20191226 -->
+    <dimen name="camera_video_recording_control_margin_Bottom">0dp</dimen>
+    <dimen name="camera_review_retake_margin_Bottom">20dp</dimen>
+    <dimen name="camera_review_save_margin_Bottom">20dp</dimen>
+    <!--for 16:9-->
+    <dimen name="century_textsize_medium">10.0sp</dimen>
+    <dimen name="hct_shutter_layout_height">220dp</dimen>        <!--bv wuyonglin modify for adjust BrokehMode view from 217dp to 220dp 20200309 -->
+    <dimen name="hct_shutter_margin_bottom_when_has_android_nav">13dp</dimen>
+    <dimen name="hct_shutter_title_size">14dp</dimen>
+    <dimen name="navigationbar_hide_bottom_margin">43dp</dimen>
+    <dimen name="seekbar_text_padding_top">30dp</dimen>
+    <dimen name="long_exposure_margin_bottom">62dp</dimen>	<!--bv wuyonglin modify for long exposure take picture button position from 50dp to 62dp 20200225 -->
+    <dimen name="camera_shutter_title">166dp</dimen>  <!--bv wuyonglin modify for adjust all icon position 20200309 -->
+    <dimen name="quick_switcher_margin_top">0dp</dimen>	<!--bv wuyonglin modify for adjust all icon position 20191226 -->
+    <dimen name="settings_margin_top">3dp</dimen>
+    <!--bv wuyonglin modify for quick switcher icon not right y position from -5dp to 0dp 20200522 start -->
+    <dimen name="top_bar_margin_top">0dp</dimen>
+    <!--bv wuyonglin modify for quick switcher icon not right y position from -5dp to 0dp 20200522 end -->
+    <dimen name="flash_option_margin_top">7.5dp</dimen>
+    <dimen name="magic_btn_margin_bottom">55dp</dimen>
+    <dimen name="sdof_text_view_textsize">40px</dimen>
+    <dimen name="magic_btn_margin_top">5dp</dimen>
+    <dimen name="camera_switcher_margin_bottom">79dp</dimen>
+    <dimen name="camera_switcher_margin_right">25dp</dimen>
+    <dimen name="sliding_arcview_height">180dp</dimen>
+    <dimen name="sliding_rectview_height">39dp</dimen>
+    <dimen name="sliding_zoom_view_height">37dp</dimen>
+    <dimen name="sliding_zoom_text_size">10sp</dimen>
+    <dimen name="sliding_size_of_view">8.5dp</dimen>
+    <dimen name="sliding_offsety_height">15dp</dimen>
+    <dimen name="century_mode_item_height">25.0dip</dimen>
+    <dimen name="pano_btn_margin_bottom">50dp</dimen>
+    <dimen name="progress_indicator_padding_bottom">40dip</dimen> 
+    <dimen name="pro_tool_bar_width">50dp</dimen>
+    <dimen name="quick_switcher_height">47dp</dimen>  <!--bv wuyonglin modify for adjust all icon position 20200309 -->
+    <dimen name="selected_text_size">16dp</dimen>
+
+    
+    <!--add by huangfei for  picture size ratio 1:1 start-->
+    <dimen name="bottom_margin_1_1">18dp</dimen>  <!--bv wuyonglin modify for full screen 20191224 -->
+    <!--add by huangfei for  picture size ratio 1:1 end-->
+
+    <dimen name="quick_switcher_icon_width">42dp</dimen>  <!--bv wuyonglin modify for adjust all icon position 20200309 -->
+    <!--add by huangfei for height of setting item start-->
+    <dimen name="settings_item_customized_height">60.7dp</dimen> <!-- bv wuyonglin modify for setting ui 20200923 -->
+    <!--add by huangfei for height of setting item end-->
+    <dimen name="camera_zoom_view_margin_Bottom">213dp</dimen>
+    
+    <!-- add by wangshuoshuo for settings icon margin left dimen -->
+    <dimen name="settings_margin_left">11dp</dimen>
+    <!-- end by wangshuoshuo -->
+    
+    <!--start, wangsenhao for triple switch, 2020.02.25-->
+    <dimen name="triple_switch_marginTop">300dp</dimen>
+    <dimen name="triple_switch_marginRight">10dp</dimen>
+    <dimen name="triple_switch_textsize">8dp</dimen>
+    <dimen name="title_textsize">8dp</dimen>
+    <dimen name="switch_size">30dp</dimen>
+    <dimen name="switch_margin_root">3dp</dimen>
+    <dimen name="switch_margin_child">12dp</dimen>
+    <dimen name="img_margin_top_root">45dp</dimen>
+    <!--end, wangsenhao for triple switch, 2020.02.25-->
+
+    <!--add by huangfei for shot num padding start-->
+    <dimen name="shot_num_padding_bottom">0dp</dimen>
+    <!--add by huangfei for shot num padding end-->
+
+    <!--add by huangfeifor front tripleswitchhorizontal start-->
+    <dimen name="triple_switch_horizontal_scroller_left_padding">48dp</dimen>
+    <dimen name="triple_switch_horizontal_scroller_padding">15dp</dimen>
+    <dimen name="triple_switch_select_margin_bottom">198dp</dimen>
+    <dimen name="triple_switch_icon_height">37dp</dimen>
+    <!--add by huangfeifor front tripleswitchhorizontal end-->
+    <!-- start, wangsenhao,modify white balance icon place, 2020.04.30-->
+    <dimen name="camera_indicator_view_margin_Bottom">245dp</dimen>
+    <!-- end, wangsenhao,modify white balance icon place, 2020.04.30-->
+    
+    <!--add by huangfei for QRCodescan in camera start-->
+    <dimen name="qr_codescan_left">120dp</dimen>
+    <!--add by huangfei for QRCodescan in camera end -->    
+    <!--bv wuyonglin add for adjust all icon position 20200612 start-->
+    <!-- bv wuyonglin add for screen 1440px adjust all icon position 20200709 start -->
+    <dimen name="camera_zoom_view_margin_top">471dp</dimen>
+    <dimen name="camera_zoom_view_new_margin_top">425dp</dimen>
+    <!-- bv wuyonglin add for screen 1440px adjust all icon position 20200709 end -->
+    <dimen name="top_margin_1_1">133dp</dimen>
+    <dimen name="camera_shutter_title_1560px">183dp</dimen>
+    <dimen name="camera_shutter_margin_Bottom_1560px">76dp</dimen>
+    <dimen name="camera_switcher_margin_bottom_1560px">90dp</dimen>
+    <dimen name="camera_video_stop_margin_Bottom_1560px">26dp</dimen>
+    <dimen name="camera_video_pause_margin_Bottom_1560px">40dp</dimen>
+    <dimen name="camera_video_vss_margin_Bottom_1560px">40dp</dimen>
+    <!--bv wuyonglin add for adjust all icon position 20200612 end-->
+    <!--bv wuyonglin add for adjust screen height 1560px top bar position 20200628 start-->
+    <dimen name="quick_switcher_bottom_position">77dp</dimen>
+    <dimen name="top_bar_margin_top_1560px">3dp</dimen>
+    <dimen name="hct_shutter_title_size_1560px">13dp</dimen>
+    <dimen name="hct_shutter_layout_height_1560px">240dp</dimen>
+    <dimen name="camera_zoom_view_margin_top_1560px">474dp</dimen>
+    <!-- bv wuyonglin add for screen 1440px adjust all icon position 20200709 start -->
+    <dimen name="camera_preview_margin_top_1560px">60dp</dimen>
+    <dimen name="quick_switcher_bottom_position_1440px">57dp</dimen>
+    <dimen name="top_bar_margin_top_1440px">5dp</dimen>
+    <dimen name="hct_shutter_layout_height_1440px">200.5dp</dimen>
+    <dimen name="camera_shutter_title_1440px">145dp</dimen>
+    <dimen name="camera_slider_view_margin_bottom">159dp</dimen>
+    <dimen name="camera_shutter_margin_Bottom_1440px">55dp</dimen>
+    <dimen name="camera_switcher_margin_bottom_1440px">69dp</dimen>
+    <dimen name="camera_video_stop_margin_Bottom_1440px">5dp</dimen>
+    <dimen name="camera_video_pause_margin_Bottom_1440px">19dp</dimen>
+    <dimen name="camera_video_vss_margin_Bottom_1440px">19dp</dimen>
+    <dimen name="top_margin_1_1_1440px">113dp</dimen>
+    <dimen name="camera_zoom_view_margin_top_1440px">481dp</dimen>
+    <dimen name="preview_frame_bottom_margin_adjust">11dp</dimen>
+    <!-- bv wuyonglin add for screen 1440px adjust all icon position 20200709 end -->
+    <!--bv wuyonglin add for adjust screen height 1560px top bar position 20200628 end-->
+    <dimen name="more_mode_title_1440px">142dp</dimen>
+    <dimen name="chseekbar_text_padding">4dp</dimen>
+    <!--bv wuyonglin add for screen 2300px adjust all icon position 20201024 start-->
+    <dimen name="camera_preview_margin_top_2300px">93dp</dimen>
+    <dimen name="quick_switcher_bottom_position_2300px">83dp</dimen>
+    <dimen name="top_bar_margin_top_2300px">0dp</dimen>
+    <dimen name="hct_shutter_layout_height_2300px">221dp</dimen>
+    <dimen name="camera_shutter_title_2300px">167dp</dimen>
+    <dimen name="camera_shutter_margin_Bottom_2300px">65.7dp</dimen>
+    <dimen name="camera_switcher_margin_bottom_2300px">79.7dp</dimen>
+    <dimen name="camera_video_stop_margin_Bottom_2300px">15.7dp</dimen>
+    <dimen name="camera_video_pause_margin_Bottom_2300px">29.7dp</dimen>
+    <dimen name="camera_video_vss_margin_Bottom_2300px">29.7dp</dimen>
+    <dimen name="top_margin_1_1_2300px">136dp</dimen>
+    <dimen name="camera_zoom_view_margin_top_2300px">471dp</dimen>
+    <dimen name="more_mode_title_2300px">164dp</dimen>
+    <dimen name="bv_gap_value_of_mode_title">17dp</dimen>
+    <dimen name="triple_switch_select_margin_bottom_2300px">218.7dp</dimen>
+    <dimen name="camera_shutter_bar_height_2300px">203.7dp</dimen>
+    <dimen name="quick_switcher_height_2300px">92dp</dimen>
+    <dimen name="aiworks_facebeauty_custom_margin_bottom_2300px">220.7dp</dimen>
+    <dimen name="century_facebeauty_custom_margin_bottom_2300px">142dp</dimen>
+    <dimen name="aiworks_horizontal_scroll_view_margin_top_2300px">7dp</dimen>
+    <dimen name="aiworks_horizontal_scroll_view_margin_top">1dp</dimen>
+    <dimen name="aiworks_facebeauty_custom_margin_bottom">127dp</dimen>
+    <dimen name="ll_summary_menu_height">60dp</dimen>
+    <dimen name="mode_fragment_root_rl_height">537dp</dimen>
+    <dimen name="mode_fragment_root_rl_height_2300px">563dp</dimen>
+    <dimen name="review_ui_margin_bottom">23dp</dimen>
+    <dimen name="review_ui_margin_bottom_2300px">36.7dp</dimen>
+    <dimen name="gesture_review_ui_margin_bottom_2300px">33.7dp</dimen>
+    <!--bv wuyonglin add for screen 2300px adjust all icon position 20201024 end-->
+    <dimen name="triple_gap_value_of_mode_title">6dp</dimen>
+    <dimen name="settings_title_view_top_margin">8dp</dimen>
+    <dimen name="image_view_top">27.7dp</dimen>
+    <dimen name="camera_ui_root_margin_top_2300px">36dp</dimen>
+    <dimen name="camera_preview_margin_bottom_for_full">5.34dp</dimen>
+    <!--bv wuyonglin add for screen 2300px adjust all icon position 20210331 start-->
+    <dimen name="triple_switch_select_margin_bottom_2400px">237dp</dimen>
+    <dimen name="camera_shutter_bar_height_2400px">222dp</dimen>
+    <dimen name="quick_switcher_bottom_position_2400px">99dp</dimen>
+    <dimen name="top_margin_1_1_2400px">152.4dp</dimen>
+    <dimen name="top_margin_full_2400px">80dp</dimen>
+    <dimen name="camera_preview_margin_top_2400px">111dp</dimen>
+    <dimen name="camera_zoom_view_margin_top_2400px">475dp</dimen>
+    <dimen name="camera_shutter_title_2400px">183dp</dimen>
+    <dimen name="more_mode_title_2400px">179dp</dimen>
+    <dimen name="camera_ui_root_margin_top_2400px">44.7dp</dimen>
+    <dimen name="camera_switcher_margin_bottom_2400px">89dp</dimen>
+    <dimen name="camera_shutter_margin_Bottom_2400px">75dp</dimen>
+    <dimen name="camera_video_stop_margin_Bottom_2400px">25dp</dimen>
+    <dimen name="camera_video_pause_margin_Bottom_2400px">39dp</dimen>
+    <dimen name="camera_video_vss_margin_Bottom_2400px">39dp</dimen>
+    <dimen name="review_ui_margin_bottom_2400px">46dp</dimen>
+    <dimen name="gesture_review_ui_margin_bottom_2400px">43dp</dimen>
+    <dimen name="hct_shutter_layout_height_2400px">238dp</dimen>
+    <dimen name="aiworks_facebeauty_custom_margin_bottom_2400px">237.7dp</dimen>
+    <dimen name="century_facebeauty_custom_margin_bottom_2400px">154.7dp</dimen>
+    <dimen name="aiworks_horizontal_scroll_view_margin_top_2400px">11dp</dimen>
+    <dimen name="mode_fragment_root_rl_height_2400px">596.34dp</dimen>
+    <dimen name="quick_switcher_height_2400px">57dp</dimen>
+    <!--bv wuyonglin add for screen 2300px adjust all icon position 20210331 end-->
+</resources>

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mediatek.camera.common.widget.RotateLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/app_ui"
+    android:splitMotionEvents="false">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/animation_root"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0"
+            android:background="@android:color/black"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/animation_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layerType="hardware"
+                android:scaleType="fitXY"
+                android:visibility="gone" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/camera_ui_root"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/top_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/top_bar_margin_top"
+                    android:layoutDirection="rtl">
+
+                    <!--bv wuyonglin modify for adjust all icon position 20200309 start -->
+                    <!--bv wuyonglin modify for adjust all icon position 20191226 start-->
+                    <!--bv wuyonglin modify for setting icon not show with quick switcher icon visibility from visible to gone 20200220 start-->
+                    <com.mediatek.camera.common.widget.RotateImageView
+                        android:id="@+id/mode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="@dimen/quick_switcher_margin_top"
+                        android:clickable="true"
+                        android:contentDescription="@string/accessibility_mode"
+                        android:focusable="false"
+                        android:scaleType="fitCenter"
+                        android:visibility="gone" />
+                    <!--bv wuyonglin modify for setting icon not show with quick switcher icon visibility from visible to gone 20200220 end-->
+                    <LinearLayout
+                        android:id="@+id/quick_switcher"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/quick_switcher_height"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="@dimen/quick_switcher_margin_top"
+                        android:layoutDirection="ltr"
+                        android:orientation="horizontal" />
+                    <!--bv wuyonglin modify for adjust all icon position 20191226 end-->
+                    <!--bv wuyonglin modify for adjust all icon position 20200309 end -->
+                </LinearLayout>
+
+                <!--bv wuyonglin modify for adjust all icon position 20191226 start-->
+                <LinearLayout
+                    android:id="@+id/shutter_root_full_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/camera_shutter_bar_height"
+                    android:layout_alignParentBottom="true"
+                    android:background="@android:color/transparent"
+                    android:clickable="false" />
+                <!--bv wuyonglin modify for adjust all icon position 20191226 end-->
+
+                <com.mediatek.camera.ui.shutter.ShutterRootLayout
+                    android:id="@+id/shutter_root"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="@dimen/camera_shutter_margin_Bottom" />
+
+                <com.mediatek.camera.ui.shutter.ShutterView
+                    android:id="@+id/shutter_view_root"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="@dimen/camera_shutter_margin_Bottom">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="86dp"
+                        android:layout_gravity="center"
+                        android:layout_alignParentBottom="true">
+
+                        <ProgressBar
+                            android:id="@+id/bottom_progressbar"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:visibility="gone"
+                            android:indeterminateTint="#99000000"
+                            style="@style/CustomProgressStyle"
+                            />
+                        <!--style="@style/CustomProgressStyle"
+                        android:indeterminateTint="#FF0000FF"-->
+
+                        <com.mediatek.camera.ui.shutter.ShutterButton
+                            android:id="@+id/shutter_button"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:scaleType="centerInside" />
+                    </RelativeLayout>
+
+                </com.mediatek.camera.ui.shutter.ShutterView>
+                <View
+                    android:id="@+id/center"
+                    android:layout_width="1dp"
+                    android:layout_height="1dp"
+                    android:layout_centerInParent="true"
+                    android:clickable="false"
+                    android:visibility="invisible" />
+
+                <LinearLayout
+                    android:id="@+id/indicator_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/camera_indicator_view_margin_Bottom"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="15dp"
+                    android:gravity="top"
+                    android:orientation="vertical"></LinearLayout>
+
+                <View
+                    android:id="@+id/center_bottom"
+                    android:layout_width="1dp"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerInParent="true"
+                    android:clickable="false"
+                    android:visibility="invisible" />
+
+		<!--bv wuyonglin modify for optimize touch blank area quick switcher option can hide 2020025 start-->
+                <RelativeLayout
+                    android:id="@+id/effect"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="@dimen/camera_effect_margin_Bottom"
+                    android:layout_marginStart="92dp"
+                    android:layout_toEndOf="@id/center_bottom"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:scaleType="center">
+                </RelativeLayout>
+		<!--bv wuyonglin modify for optimize touch blank area quick switcher option can hide 2020025 end-->
+                <!-- @{ hct.huangfei, 20201130.camera switcher for custom. -->
+                <com.mediatek.camera.common.widget.RotateImageView
+                    android:id="@+id/camera_switcher"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginBottom="@dimen/camera_switcher_margin_bottom"
+                    android:layout_marginEnd="26dp"
+                    android:scaleType="fitCenter"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:visibility="gone"
+                    app:srcCompat="@drawable/custom_ic_camera_picker_pressed"/>
+                    
+                <!-- hct.wangsenhao, for camera switch @{ -->
+                <FrameLayout
+                    android:id="@+id/triple_switch"
+                    android:layout_width="36dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="@dimen/triple_switch_marginTop"
+                    android:layout_marginEnd="@dimen/triple_switch_marginRight"
+                    android:gravity="center_horizontal"
+                    android:visibility="gone"
+                    android:background="@drawable/switch_background">
+                    <ImageView
+                        android:id="@+id/camera_selected_background"
+                        android:layout_width="@dimen/switch_size"
+                        android:layout_height="@dimen/switch_size"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/img_margin_top_root"
+                        android:src="@drawable/button_selected_background"/>
+                    <TextView
+                        android:id="@+id/camera_wide_switch"
+                        android:layout_width="@dimen/switch_size"
+                        android:layout_height="@dimen/switch_size"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/triple_switch_Wide_title"
+                        android:textSize="@dimen/triple_switch_textsize"
+                        android:visibility="gone"
+                        android:layout_marginTop="@dimen/switch_margin_root"/>
+                    <TextView
+                        android:id="@+id/camera_normal_switch"
+                        android:layout_width="@dimen/switch_size"
+                        android:layout_height="@dimen/switch_size"
+                        android:gravity="center"
+                        android:textColor="#222222"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/triple_switch_normal_title"
+                        android:textSize="@dimen/triple_switch_textsize"/>
+                    <TextView
+                        android:id="@+id/camera_macro_switch"
+                        android:layout_width="@dimen/switch_size"
+                        android:layout_height="@dimen/switch_size"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/triple_switch_macro_title"
+                        android:textSize="@dimen/triple_switch_textsize"
+                        android:visibility="gone"
+                        android:layout_marginBottom="@dimen/switch_margin_root"/>
+                    <TextView
+                        android:id="@+id/camera_night_switch"
+                        android:layout_width="@dimen/switch_size"
+                        android:layout_height="@dimen/switch_size"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:drawablePadding="0dp"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/triple_switch_night_title"
+                        android:textSize="@dimen/triple_switch_textsize"
+                        android:visibility="gone"
+                        android:layout_marginBottom="@dimen/switch_margin_root"/>
+                </FrameLayout>
+                <!--}@ hct.wangsenhao-->
+
+                <com.mediatek.camera.common.widget.RotateImageView
+                    android:id="@+id/thumbnail"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="@dimen/camera_thumbnail_margin_Bottom"
+                    android:layout_marginEnd="110dp"
+                    android:layout_toStartOf="@id/center_bottom"
+                    android:clickable="true"
+                    android:contentDescription="@string/accessibility_thumbnail"
+                    android:focusable="false"
+                    android:scaleType="fitXY" />
+
+                <com.mediatek.camera.common.widget.RotateImageView
+                    android:id="@+id/thumbnail_animation"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_alignStart="@id/thumbnail"
+                    android:layout_alignTop="@id/thumbnail"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:scaleType="fitXY"
+                    android:visibility="invisible" />
+		<!--bv wuyonglin modify scaleType from center to fitXY for thumbnail view not show Round end-->
+
+		<!--bv wuyonglin add for adjust third app open camera ui 20200930 start -->
+                <com.mediatek.camera.common.widget.RotateImageView
+                    android:id="@+id/exit"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="@dimen/camera_thumbnail_margin_Bottom"
+                    android:layout_marginEnd="110dp"
+                    android:layout_toStartOf="@id/center_bottom"
+                    android:clickable="true"
+                    android:contentDescription="@string/accessibility_thumbnail"
+                    android:focusable="false"
+                    app:srcCompat="@drawable/bv_ic_cancel"
+                    android:scaleType="fitXY"
+                    android:visibility="invisible" />
+		<!--bv wuyonglin add for adjust third app open camera ui 20200930 end -->
+            </RelativeLayout>
+
+            <FrameLayout
+                android:id="@+id/feature_root"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/quick_switcher_option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"></FrameLayout>
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/screen_hint_root"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/camera_preview_margin_top"
+            android:clickable="false">
+            <include layout="@layout/on_screen_hint" />
+        </FrameLayout>
+    </FrameLayout>
+</com.mediatek.camera.common.widget.RotateLayout>

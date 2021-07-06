@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mediatek.camera.common.preference.Preference
+        android:key="key_storage_path"
+        android:title="@string/storage_path_title"
+        android:persistent="false"
+        style="@style/storage_path_order_style"
+        />
+</PreferenceScreen>

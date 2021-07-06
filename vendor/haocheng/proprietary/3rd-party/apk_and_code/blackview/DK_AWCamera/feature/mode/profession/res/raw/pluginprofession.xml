@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin
+    id="professionplugin"
+    name="profession"
+    version="1">
+
+    <extension
+        id="profession"
+        name="profession extension"
+        class="com.mediatek.camera.feature.mode.profession.ProEntry"
+        plugin-id="cameraplugin"
+        point-id="FeatureEntryBase">
+    </extension>
+</plugin>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="camera_label">"Kamera"</string>
+    <string name="video_camera_label">"Video Kamera"</string>
+    <string name="accessibility_shutter">"Deklanşör düğmesi"</string>
+    <string name="accessibility_thumbnail">"En son fotoğraf"</string>
+    <string name="accessibility_mode">Kamera modu</string>
+    <string name="accessibility_setting">"Ayarlar"</string>
+    <string name="setting_title">"Ayarlar"</string>
+    <string name="mode_fragment_title">Modlar</string>
+    <string name="normal_mode_title">"Normal"</string>
+    <string name="saving_dialog_default_string">Kaydediliyor...</string>
+    <string name="shutter_type_photo">"Resim"</string>
+    <string name="shutter_type_video">"Video"</string>
+    <string name="video_recording_not_available">Lütfen, video kamerayı kullanmadan önce diğer kayıt uygulamalarını duraklatın.</string>
+    <string name="video_bad_performance_auto_stop">Yetersiz bellek, kayıt otomatik olarak durduruldu.</string>
+    <string name="video_bad_performance_drop_quality">Yetersiz bellek kalite otomatik olarak değiştirildi.</string>
+    <string name="video_recording_error">Kayıt sırasında hata oluştu!</string>
+    <string name="video_reach_size_limit">"Boyut sınırına ulaşıldı."</string>
+    <string name="can_not_use_storage">SD Kart kullanılamıyor</string>
+    <string name="storage_full">Varsayılan depolama alanı dolu; lütfen biraz yer açın veya ayarlar kısmında depolama seçeneklerini yönetin.</string>
+    <string name="pref_thermal_dialog_title">Uyarı</string>
+    <string name="pref_thermal_dialog_content_launch">Aygıtsıcaklığıçokyüksek;lütfenkamerayıdahasonrakullanın.</string>
+    <string name="pref_thermal_dialog_content">Aygıtsıcaklığıçokyüksekvekamera30saniyesonraotomatikolarakkapanacak.Lütfendahasonrakullanmayıdeneyin.</string>
+    <string name="pref_thermal_preview_toast">Devam etmek için ekrana dokunun.</string>
+    
+    <!-- add by wangshuoshuo for translate -->
+    <string name="cannot_connect_camera_new">Kameraya bağlanılamıyor. Lütfen kamera veya feneri kullanabilecek diğer uygulamaları kapattığınızdan emin olun.</string>
+    <string name="camera_disabled">Kamera, güvenlik politikaları nedeniyle devre dışı bırakıldı.</string>
+    <string name="dialog_ok">Tamam</string>
+    
+    <string name="multi_window_mode_toast_lct">"Kamera çoklu ekran modu desteklemiyor"</string>
+    <string name="rotation_action">"Lütfen telefonu çevirin"</string>
+    <string name="rotation_purpose">"İyi bir selfie çekmek için telefonu çevirin"</string>
+    <string name="rotation_button">"Tamam"</string>	
+    <string name="hct_video_recording_error">Arka planda kayıt uygulaması çalıştığından çekim yapılamıyor. Lütfen arka plan uygulamaları kontrol edin ve tekrar deneyin.</string>
+    <string name="hct_under_water_tips">Dokunmatik ekran özelliği bu sayfada geçersiz. Lütfen çıkmak için güç düğmesine basın. </string>
+    <string name="hct_bokeh_tip">"Çekime başlamadan önce lenslerin temiz ve açık olduğundan emin olun"</string>
+
+    <string name="select_path_prompt">SD kart depolama alanı seçilemedi</string>
+    <string name="capture_complete_tips">Çekim tamamlandı ve resmi optimize edin</string>
+    <string name="mode_vsdof_tips">Çift kamera modu, arka plan bulanıklaştırma efektini yakalayabilir ve kameranın ve öznenin 2 metreden daha uzakta olmaması önerilir.</string>
+    <!-- end by wangshuoshuo -->
+    <string name="optimize_picture" translatable="false">Görüntü kalitesi optimize ediliyor</string>
+    <string name="more_mode_name">More</string>
+    
+    <!--bv sunyue add for Translation start 20201109-->
+    <string name="global_label">Evrensel</string>
+    <string name="advanced_label">Gelişmiş</string>
+    <string name="mirror_summary">Yalnızca ön kamera ile fotoğraf çekerken etkili</string>
+    <string name="restore_settings">Varsayılan ayarları geri yükle</string>
+    <string name="restore_settings_message">Kamera ayarlarını varsayılan değerlere geri yükle?</string>
+    <string name="detail_title">"Ayrıntılar"</string>
+    <string name="night_title">Gece görüşü</string>
+    <string name="video_title">Video</string>
+    <string name="photo_title">Fotoğraf</string>
+    <string name="beauty_title">Güzelleştir</string>
+    <string name="prof_title">Profesyonel</string>
+    <string name="w4800_title">48 milyon</string>
+    <string name="mono_title">Siyah ve beyaz</string>
+    <string name="bokeh_title">Portre</string>
+    <string name="bokehcolor_title">Renkli portre</string>
+    <string name="biprotrait_title">Panoramik</string>
+    <string name="night_summary">Çok çerçeveli sentez, gürültü azaltma, düşük ışıklı HDR ve diğer işlemlerden sonra gece sahnesi fotoğrafları daha saf ve parlak hale gelir.</string>
+    <string name="video_summary">Kamera, pozlamayı ve rengi otomatik olarak ayarlayacak, videoyu daha canlı kaydeder</string>
+    <string name="photo_summary">Kamera, en iyi fotoğrafı çekmek için pozlamayı ve rengi otomatik olarak ayarlar</string>
+    <string name="beauty_summary">Çekim sırasında portrelerde ciltte soyulma, beyazlatma ve yüz germe gibi çeşitli güzelleştirici efektler gerçekleştirilebilir.</string>
+    <string name="prof_summary">Çeşitli ve kişiselleştirilmiş çekim ihtiyaçlarını karşılamak için hassasiyet, deklanşör hızı, odak modu ve beyaz dengesinin manuel olarak ayarlanmasını destekler.</string>
+    <string name="w4800_summary">Daha yüksek çözünürlük ve daha keskin görüntüleme (HDR ve gece sahnesi bu modda kullanılamaz).</string>
+    <string name="mono_summary">Gerçek ve doğal siyah beyaz fotoğraf efektleri alın.</string>
+    <string name="bokeh_summary">İnsanların fotoğrafını veya videosunu çekerken arka plan bulanık olabilir.</string>
+    <string name="bokehcolor_summary">Portre, fotoğraf çekildiğinde gerçek zamanlı olarak tanınabilir ve siyah beyaz arka plan, portrenin rengini vurgular.</string>
+    <string name="biprotrait_summary">Çeşitli ve kişiselleştirilmiş çekim ihtiyaçlarını karşılamak için ISO duyarlılığı, deklanşör, pozlama telafisi, odak modu ve beyaz dengesinin manuel olarak ayarlanmasını destekler.</string>
+    <string name="ais_summary">Sadece flaş ve HDR\'nin her ikisi de kapalı olduğunda etkili</string>
+    <string name="slowmotion_mode_summary">Kamera 120 fps&amp;apos;lik yüksek hızlı video çekebilir ve ardından 30 fps&amp;apos;de oynatabilir, 4 kat ağır çekim gerçekleştirilebilir. Harika anları yavaşlatabilirsiniz.</string>
+<!--bv sunyue add for Translation end 20201109-->
+</resources>

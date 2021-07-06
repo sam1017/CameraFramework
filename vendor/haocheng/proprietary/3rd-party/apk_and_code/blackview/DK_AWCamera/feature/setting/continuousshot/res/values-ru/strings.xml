@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="continuous_saving_pictures">Сохранение  <xliff:g id="numbers" example="10">%1$d</xliff:g> изображений </string>
+    <string name="continuous_unsupport_mode">"Фронтальная камера не поддерживает режим серийной съемки"</string>
+    <string name="continuous_unsupport_watermark">"Режим серийной съемки не работает с включенным водяным знаком. Выключите водяной знак и попробуйте еще раз"</string>
+    <string name="continuous_shot_title">Непрерывная съемка</string>
+    <string name="continuous_shot_num_20">20 кадров</string>
+    <string name="continuous_shot_num_10">10 кадров</string>
+</resources>

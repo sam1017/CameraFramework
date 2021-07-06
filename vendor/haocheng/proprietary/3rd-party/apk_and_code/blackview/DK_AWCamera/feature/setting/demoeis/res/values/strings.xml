@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="demo_eis_title">Demo EIS</string>
+    <string name="demo_eis_content_description" translatable="false">@string/demo_eis_title</string>
+    <string name="demo_eis_on">ON Record only</string>
+    <string name="demo_eis_off">OFF</string>
+    <string name="demo_eis_on_and_chang_roi">On record and preview</string>
+</resources>

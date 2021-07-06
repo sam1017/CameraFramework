@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="storage_path_title">Путь сохранения</string>
+    <string name="storage_path_content_description" translatable="false">Путь сохранения</string>
+    <string name="no_sdcard">SD карта на обнаружена</string>
+    <string name="storage_path_internal">"внутренний"</string>
+    <string name="storage_path_external">"внешний"</string>
+</resources>

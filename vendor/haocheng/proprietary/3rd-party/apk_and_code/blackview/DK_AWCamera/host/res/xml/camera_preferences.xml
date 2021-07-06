@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- bv wuyonglin add for setting ui 20200923 start -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:settings="http://schemas.android.com/apk/res-auto"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:key="prefscreen_top"
+        android:title="Setting">
+    <com.mediatek.camera.common.preference.BvPreferenceCategory
+        android:key="global_category_screen"
+        android:title="@string/global_label"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"
+        app:bv_title_text="@string/global_label"
+        app:bv_title_color="@color/bv_category_title_color"
+        app:bv_title_size="@dimen/bv_category_text_size"
+        app:bv_title_visible="true"
+        app:bv_divider_visible="false"
+        app:bv_divider_color="@color/divider_line_color"/>
+
+    <com.mediatek.camera.common.preference.BvPreferenceCategory
+        android:key="photo_category_screen"
+        android:title="@string/shutter_type_photo"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"
+        app:bv_title_text="@string/shutter_type_photo"
+        app:bv_title_color="@color/bv_category_title_color"
+        app:bv_title_size="@dimen/bv_category_text_size"
+        app:bv_divider_width="316dp"
+        app:bv_space_top_hight="17dp"
+        app:bv_title_visible="true"
+        app:bv_divider_visible="true"
+        style="@style/shutter_order_style"
+        app:bv_divider_color="@color/divider_line_color"/>
+
+    <com.mediatek.camera.common.preference.BvPreferenceCategory
+        android:key="video_category_screen"
+        android:title="@string/shutter_type_video"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"
+        app:bv_title_text="@string/shutter_type_video"
+        app:bv_title_color="@color/bv_category_title_color"
+        app:bv_title_size="@dimen/bv_category_text_size"
+        app:bv_divider_width="316dp"
+        app:bv_space_top_hight="17dp"
+        app:bv_title_visible="true"
+        app:bv_divider_visible="true"
+        style="@style/video_order_style"
+        app:bv_divider_color="@color/divider_line_color"/>
+
+    <com.mediatek.camera.common.preference.BvPreferenceCategory
+        android:key="advanced_category_screen"
+        android:title="@string/advanced_label"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"
+        app:bv_title_text="@string/advanced_label"
+        app:bv_title_color="@color/bv_category_title_color"
+        app:bv_title_size="@dimen/bv_category_text_size"
+        app:bv_divider_width="316dp"
+        app:bv_space_top_hight="17dp"
+        app:bv_title_visible="true"
+        app:bv_divider_visible="true"
+        style="@style/advanced_order_style"
+        app:bv_divider_color="@color/divider_line_color"/>
+
+    <com.mediatek.camera.common.preference.Preference
+        android:key="key_restore_settings"
+        android:title="@string/restore_settings"
+        android:persistent="false"
+        android:order="50"/>
+    <!-- bv wuyonglin add for setting ui 20200923 end -->
+</PreferenceScreen>

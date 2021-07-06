@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="century_facebeauty_buffing">Glätten</string>
+    <string name="century_facebeauty_ruddy">Rötlich</string>
+    <string name="century_facebeauty_slimming">Gesichtslifting</string>
+    <string name="century_facebeauty_whitening">Aufhellung</string>
+    <string name="century_facebeauty_onekey">One-tap\nÜberarbeitung</string>
+    <string name="century_facebeauty_custom">benutzerdefiniert</string>
+</resources>

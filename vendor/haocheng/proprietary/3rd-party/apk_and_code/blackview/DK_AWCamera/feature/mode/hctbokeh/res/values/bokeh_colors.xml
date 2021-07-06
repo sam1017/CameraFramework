@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bokeh_aperture_blade_color">#CCAAABAB</color>
+    <color name="bokeh_aperture_background_color">#FFFFFFFF</color>
+    <color name="bokeh_seekbar_progress_color">#FF12B3B9</color>
+</resources>

@@ -1,0 +1,10 @@
+<vector android:height="42dp"
+    android:viewportHeight="126"
+    android:viewportWidth="126"
+    android:width="42dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <path android:fillColor="#ffffff"
+        android:name="videoquality_4K"
+        android:pathData="m52 53.69v13.31h-8.47l-0.06 0.09c2.33 -4.2 3.46 -6.15 8.53 -13.41zm-1.58 -5.68c-6.59 9.44 -9.92 14.64 -12.43 19.32l0.01 4.67h14v6h5v-6h4v-5h-4l-0.01 -19zm39.01 -0.04 -6.53 0.07 -12.49 13.32 -0.47 0.34 0.09 -13.7 -5.12 -0.03 0.09 29.98 5.02 0.06 -0.06 -8.83 3.4 -3.36 9.4 12.31 6.53 -0.16 -12.54 -15.84 12.66 -14.19z"/>
+</vector>

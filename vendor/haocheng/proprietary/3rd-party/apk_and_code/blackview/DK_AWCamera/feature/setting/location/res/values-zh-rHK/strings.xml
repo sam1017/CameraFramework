@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="location_title" >位置信息</string>
+    <string name="location_content_description" >位置信息</string>
+    <string name="permission_toast_tip" >請打開位置信息權限</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="continuous_saving_pictures">Enregistrement de  <xliff:g id="numbers" example="10">%1$d</xliff:g> images </string>
+    <string name="continuous_shot_title">Prise de vue en continu</string>
+    <string name="continuous_shot_num_20">20 feuilles</string>
+    <string name="continuous_shot_num_10">10 feuilles</string>
+</resources>

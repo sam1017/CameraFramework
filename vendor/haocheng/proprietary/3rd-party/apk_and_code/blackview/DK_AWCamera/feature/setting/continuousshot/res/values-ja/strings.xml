@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="continuous_saving_pictures"> <xliff:g id="numbers" example="10">%1$d</xliff:g> 枚の写真を保存中</string>
+    <!-- add by huangfei for continuous shot numbers start -->
+    <string name="continuous_shot_title">連写</string>
+    <!-- add by huangfei for continuous shot numbers end -->
+    <string name="continuous_shot_num_20">20枚</string>
+    <string name="continuous_shot_num_10">10枚</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="location_title" >Location</string>
+    <string name="location_content_description" >Location</string>
+    <string name="permission_toast_tip" >Please open the location permission</string>
+    
+    <!-- add by wangshuoshuo for set location value by default -->
+    <string name="def_location_value" >off</string>
+    <!-- end by wangshuoshuo -->
+    
+</resources>

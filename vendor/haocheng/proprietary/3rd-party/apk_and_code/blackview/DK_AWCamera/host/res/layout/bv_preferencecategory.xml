@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="14dp"
+        android:orientation="vertical" >
+
+
+    <View
+        android:id="@+id/space_top"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="gone"/>
+
+    <View
+        android:id="@+id/preference_divider"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_width="316dp"
+        android:background="@color/divider_line_color"
+        android:layout_height="1px"
+        />
+
+
+    <!--bv zhangjiachu modify 20200414
+    add:android:textStyle="bold"-->
+    <TextView
+        android:id="@+id/preference_title"
+        android:gravity="center"
+        android:text="@string/global_label"
+        android:textSize="@dimen/bv_category_text_size"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"
+        android:textColor="@color/bv_category_title_color"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="5dip"
+        android:layout_marginStart="22dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <!--bv zhangjiachu add for space bottom 20200508-->
+    <View
+        android:id="@+id/space_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="gone"/>
+</LinearLayout>

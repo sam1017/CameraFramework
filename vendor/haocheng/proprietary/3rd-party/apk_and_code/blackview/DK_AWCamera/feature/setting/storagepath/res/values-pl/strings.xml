@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="storage_path_title">Pamięć ścieżki</string>
+    <string name="storage_path_internal">Pamięć wewnętrzna</string>
+    <string name="storage_path_external">Pamięć karty SD</string>
+    <string name="no_sdcard">Karta SD nie została wykryta</string>
+</resources>

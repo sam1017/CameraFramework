@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="flash_low_battery_warning">Bajo la situación de poca energía de electricidad no se puede encender el flash</string>
+
+</resources>

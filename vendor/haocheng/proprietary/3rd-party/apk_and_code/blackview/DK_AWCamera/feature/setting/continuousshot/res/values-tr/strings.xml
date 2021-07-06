@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="continuous_saving_pictures">  <xliff:g id="numbers" example="10">%1$d</xliff:g> resim kaydediliyor </string>
+    <!-- add by wangshuoshuo for translate -->
+    <string name="continuous_shot_title">Sürekli çekim</string>
+    <string name="continuous_shot_num_20">20 fotoğraf</string>
+    <string name="continuous_shot_num_10">10 fotoğraf</string>
+    <!-- end by wangshuoshuo -->
+</resources>

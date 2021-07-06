@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="continuous_saving_pictures">正在保存 <xliff:g id="numbers">%1$d</xliff:g> 张图片</string>
+
+    <!-- @{ hct.huangfei, 20201027.continuous shot numbers -->
+    <string name="continuous_unsupport_mode">当前模式不支持连拍</string>
+    <string name="continuous_unsupport_watermark">打开水印不支持连拍，请关闭水印后再尝试</string>
+    <string name="continuous_shot_title">连拍</string>
+    <string name="continuous_shot_num_20">20张</string>
+    <string name="continuous_shot_num_10">10张</string>
+    <!-- @} -->
+</resources>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- add by huangfei for default preview ratio start-->
+    <!-- 4:3 default (0) 16:9 default(1) -->
+    <integer name="default_preview_ratio">0</integer>
+    <!-- add by huangfei for animation time of capture end-->
+
+    <bool name="config_camera_vsdof_default_ratio_4_3">true</bool>
+    <bool name="config_is_front_camera_rotating">false</bool>
+    <!--this shuld select from off,auto-scene-detection,night,sunset,party,portrait,landscape,
+       night-portrait,theatre,beach,snow,steadyphoto,fireworks,sports,candlelight,hdr-detection,backlight-portrait-->
+    <string name="config_scene_mode_default_value" translatable="false">off</string>
+    <!-- add by huangfei for remove eis start -->
+    <bool name="config_eis_support">false</bool>
+    <!-- add by huangfei for remove eis end -->  
+    <!-- add by huangfei for forbid flash when low power start -->
+    <integer name="warning_low_power_value">16</integer>
+    <bool name="config_show_low_power_tip_of_front">false</bool>
+    <!-- add by huangfei for forbid flash when low power end -->
+    <!-- add by huangfei for default level of sdofview start -->
+    <integer name="sdof_default_value">7</integer>
+    <!-- add by huangfei for default level of sdofview end -->
+    <!-- add by huangfei for switch camera by up and down start -->
+    <bool name="config_is_up_down_switch_camera_support">false</bool>
+    <!-- add by huangfei for switch camera by up and down end -->
+
+	<bool name="config_watermark_support">true</bool>
+    <!-- bv wuyongin modify for watermark default open start -->
+    <string name="config_watermark_default_value" translatable="false">off</string>
+    <!-- bv wuyongin modify for watermark default open end -->
+    <bool name="config_timestamp_support">false</bool>
+    <bool name="set_water_mark_right">false</bool>
+    <integer name="water_mark_scale">2</integer>
+    <integer name="water_mark_translate_x">0</integer>
+    <integer name="water_mark_translate_y">0</integer>
+    <string name="water_mark_scale_percent" translatable="false">38</string>
+    <string name="water_mark_scale_percent_a100" translatable="false">26</string>
+    <string name="water_mark_translate_x_percent" translatable="false">4.3</string>
+    <string name="water_mark_translate_y_percent" translatable="false">4.8</string>
+    <string name="config_timestamp_format" translatable="false">dmy</string>
+      
+    <bool name="config_storage_path_support">true</bool>
+    <string name="storage_path_default_value" translatable="false">Internal</string>
+    
+    <!-- add by huangfei for mirror start -->
+    <bool name="config_is_mirror_support">true</bool>
+    <!-- add by huangfei for mirror end -->
+    
+    <bool name="config_camera_ratio_18_9_support">true</bool>
+    <bool name="config_picture_size_show_Mode_support">true</bool>
+    <bool name="config_picture_size_not_interpolated">true</bool>
+
+    <bool name="config_is_fill_light_support">false</bool>
+    <string name="config_fill_light_default_value" translatable="false">off</string>
+    <integer name="fill_light_covered_time">800</integer>
+
+    <!--add by huangfei for covered tips start -->
+    <bool name="config_bokeh_covered_tips_support">true</bool>
+    <integer name="bright_covered_times">3</integer>
+    <!--add by huangfei for covered tips end -->
+
+    <bool name="config_location_support">true</bool>
+
+    <!-- add by huangfei for storage limit for video start -->
+    <integer name="record_low_storage_threshold">48</integer>
+    <!-- add by huangfei for storage limit for video end -->
+
+     <!-- add by huangfei for remove hdr mode start -->
+    <bool name="config_hdr_support">false</bool>
+    <!-- add by huangfei for remove hdr mode end -->
+
+    <!-- add by huangfei for remove dng in settings start -->
+    <bool name="config_dng_support">false</bool>
+    <!-- add by huangfei for remove dng in settings  end -->
+
+    <!-- add by huangfei for focus enable start -->
+    <bool name="config_focus_sound_support">true</bool>
+    <!-- add by huangfei for focus enable end -->
+
+    <!-- add by huangfei for defalut mode start -->
+    <integer name="config_default_mode">-1</integer>
+    <!-- add by huangfei for defalut mode end -->
+
+    <bool name="video_quality_default_main_max">false</bool>
+    <bool name="video_quality_default_sub_max">false</bool>
+    <bool name="video_quality_default_max">false</bool>
+
+    <bool name="config_video_sound_support">true</bool>
+
+    <!-- add by huangfei for slow motion and long exposure start -->
+    <bool name="config_long_exposure_support">false</bool>
+    <bool name="config_slow_motion_support">false</bool>
+    <!-- add by huangfei for slow motion and long exposure end -->
+
+    <bool name="config_long_screen_support">true</bool>
+
+    <bool name="config_continuous_shot_num_support">true</bool>
+
+    <bool name="config_camera_switcher_for_custom">true</bool>
+
+    <!--add by huangfei for hideFocusUiForVideo start-->
+    <bool name="config_focus_ui_hide_when_recording">false</bool>
+    <!--add by huangfei for hideFocusUiForVideo end-->
+    
+    <!-- add by huangfei for hangouts video start -->
+    <bool name="config_video_limit_480p">true</bool>
+    <!-- add by huangfei for hangouts video end -->
+
+    <!-- add by huangfei for animation of switch mode start -->
+    <bool name="config_animation_of_switch_mode_support">true</bool>
+    <!-- add by huangfei for animation of switch mode  end -->
+
+    <!-- add by huangfei for flash of torch mode start  -->
+    <bool name="config_torch_mode_support">false</bool>
+    <!-- add by huangfei for flash of torch mode end  -->
+    
+    <bool name="config_zoom_view_customize_support">true</bool>
+    <bool name="config_zoom_ratios_8x_support">false</bool>
+
+    <!-- start, wangsenhao, default camera sound value, 2019.06.03 -->
+    <bool name="config_default_camerasound_on">true</bool>
+    <!-- end, wangsenhao, default camera sound value, 2019.06.03 -->
+
+    <!--start, wangsenhao, for timestamp color, 2019.06.04-->
+    <integer name="config_timestamp_color">0xFFFFFF00</integer>
+    <!--end, wangsenhao, for timestamp color, 2019.06.04-->
+
+    <bool name="config_video_recording_auto_focus_support">true</bool>
+
+    <!--start, wangsenhao, is support previewmode, 2019.06.05-->
+    <bool name="config_is_support_previewmode">false</bool>
+    <!--end, wangsenhao, is support previewmode, 2019.06.05-->
+
+    <!--start, wangsenhao, set max brightness when open camera, 2019.06.18-->
+    <bool name="config_set_maxbrightness_in_camera">false</bool>
+    <!--end, wangsenhao, set max brightness when open camera, 2019.06.18-->
+
+    <!-- @{ hct.huangfei, 20201210.add volume key function. -->
+    <bool name="config_volume_key_support">false</bool>
+    <string name="volume_key_default_value" translatable="false">capture</string>
+    <!-- @} -->
+
+    <!--start, wangsenhao, press preview to take a picture, 2019.06.19-->
+    <bool name="config_single_tap_capture_support">false</bool>
+    <string name="config_single_tap_capture_default_value" translatable="false">on</string>
+    <!--end, wangsenhao, press preview to take a picture, 2019.06.19-->
+
+    <integer name="config_main_default_pictruesize_index">0</integer>
+    <integer name="config_sub_default_pictruesize_index">0</integer>
+    <!--start, wangsenhao, vsdof tips, 2019.07.08-->
+    <bool name="config_vsdof_tip_support">false</bool>
+    <!--end, wangsenhao, vsdof tips, 2019.07.08--> 
+    <bool name="config_mf_support">true</bool>
+    <bool name="config_shutter_support">true</bool>
+
+    <!-- add by huangfei for watermark enable start -->
+    <bool name="config_watermark_all_capture_mode_support">false</bool>
+    <!-- add by huangfei for watermark enable end -->
+
+    <!-- add by huangfei for matrixmode start -->
+    <bool name="config_matrixmode_support">false</bool>
+    <!-- add by huangfei for matrixmode end -->
+
+    <!-- add by huangfei for more mode start -->
+    <bool name="config__more_mode_suppprt">true</bool>
+    <!-- add by huangfei for more mode end -->    
+      
+    <!-- add by huangfei for gridlines in setting start  -->
+    <bool name="config_gridlines_support">true</bool>
+    <!-- add by huangfei for gridlines in setting end  -->
+
+    <!--add by huangfei for picture size show numbers start -->
+    <integer name="picture_size_numbers_show">1</integer>
+    <!--add by huangfei for picture size show numbers end -->
+    <!--add by huang fei disable setting items start -->   
+    <bool name="config_scene_mode_support">false</bool>
+    <bool name="config_ais_support">false</bool>
+    <bool name="config_white_balance_support">false</bool>
+    <bool name="config_iso_support">false</bool>
+    <bool name="zsd_defalut_on_and_hide">true</bool>
+    <!--add by huang fei disable setting items end -->    
+
+    <!--add by huangfei for  picture size ratio 1:1 start-->
+    <bool name="config_camera_ratio_1_1_support">true</bool>
+    <!--add by huangfei for  picture size ratio 1:1 end-->
+
+    <integer name="beauty_seekbar_max">100</integer>
+    <integer name="beauty_seekbar_default">70</integer>
+    <integer name="bokeh_seekbar_max">8</integer>
+    <integer name="bokeh_level_default">4</integer>
+    <bool name="congfig_only_show_custom_beautyseekbar">false</bool>
+
+     <!--start, wangsenhao for triple switch, 2020.02.25-->
+    <bool name="config_triple_switch_support">false</bool>
+    <bool name="config_triple_switch_macro_toast_support">false</bool>
+    <bool name="config_triple_switch_macro_video_support">true</bool>
+    <bool name="config_triple_switch_x2_zoom_support">false</bool>
+    <bool name="config_triple_switch_auto_margin">false</bool>
+    <integer name="config_triple_switch_marginTop_1_1">439</integer>
+    <integer name="config_triple_switch_marginTop_4_3">248</integer>
+    <integer name="config_triple_switch_marginTop_16_9">139</integer>
+    <integer name="config_triple_switch_marginTop_18_9">19</integer>
+     <!--end, wangsenhao for triple switch, 2020.02.25-->
+    <!--add by huangfei for gap of mode title start -->
+    <integer name="gap_value_of_mode_title">12</integer>
+    <!--add by huangfei for gap of mode title end-->
+
+    <!-- start, wangsenhao, yuvcamera2 bokeh sensor, 2020.03.31 -->
+    <bool name="config_double_bokeh_coveded_tips_support">false</bool>
+    <!-- end, wangsenhao, yuvcamera2 bokeh sensor, 2020.03.31 -->
+    
+    <!--add by huangfeifor front bokeh start -->
+    <bool name="config_front_bokeh_support">false</bool>    
+    <!--add by huangfeifor front bokeh end -->
+
+    <!--add by huangfeifor underwater start --> 
+    <integer name="underwater_tips_show_time">2000</integer>
+    <!--add by huangfeifor underwater end -->
+
+    <!--add by huangfeifor front tripleswitchhorizontal start -->
+    <bool name="config_tripleswitch_horizontal_support">true</bool>    
+    <!--add by huangfeifor front tripleswitchhorizontal end -->
+
+    <!--add by huangfei for watermarkThumbnailClick start--> 
+    <bool name="config_watermark_thumbnail_click_limited">false</bool>    
+    <!--add by huangfei for watermarkThumbnailClick end-->
+
+    <!--add by huangfei for panorama mode support start--> 
+    <bool name="config_panorama_mode_support">true</bool>    
+    <!--add by huangfei for panorama mode support end--> 
+
+    <!--adb by huangfei for front touch AE start--> 
+    <bool name="config_front_touch_ae_support">false</bool>    
+    <!--adb by huangfei for front toutch AE end--> 
+
+    <!--add by huangfei for QRCodescan in camera start-->
+    <bool name="config_qrcodescan_in_camera_support">false</bool>
+    <!--add by huangfei for QRCodescan in camera end -->
+
+    <!--add by huangfei for focus ui start-->
+    <bool name="config_customer_focus_ui_support">false</bool>
+    <!--add by huangfei for focus ui end-->
+
+    <!--add by huangfei for zoom switch start-->
+    <bool name="config_zoom_switch_support">true</bool>
+    <bool name="config_zoom_slide_switch_support">true</bool>
+    <!--add by huangfei for zoom switch end -->
+
+    <!-- @{ hct.huangfei,hdr view int topbar. -->
+    <bool name="config_hdr_in_topbar_support">true</bool>
+    <!-- @} -->
+
+    <!--add by huangfei for update thumbnail without exif start-->
+    <bool name="config_update_thumbnail_without_exif_support">false</bool>
+    <!--add by huangfei for update thumbnail without exif end-->
+    <!-- hct.wangsenhao, for mono mode, @{ -->
+    <bool name="config_mono_mode_support">false</bool>
+    <!-- }@ hct.wangsenhao -->
+    <!-- hct.wangsenhao, for pro mode, @{ -->
+    <bool name="config_pro_mode_support">true</bool>
+    <!-- }@ hct.wangsenhao -->
+    <!--bv wuyonglin add for aiworks facebeauty and bokeh 20200722 start-->
+    <integer name="aiworks_bokeh_seekbar_max">8</integer>
+    <integer name="aiworks_bokeh_level_default">4</integer>
+    <!--bv wuyonglin add for aiworks facebeauty and bokeh 20200722 end-->
+</resources>
+

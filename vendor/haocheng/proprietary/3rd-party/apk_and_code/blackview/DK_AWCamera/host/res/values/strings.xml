@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="camera_label">Camera</string>
+    <string name="video_camera_label">Camcorder</string>
+    <string name="accessibility_shutter">Shutter button</string>
+    <string name="accessibility_thumbnail">Most recent photo</string>
+    <string name="accessibility_mode">Camera mode</string>
+    <string name="accessibility_setting">Setting</string>
+    <string name="setting_title">Settings</string>
+    <string name="mode_fragment_title">Modes</string>
+    <string name="normal_mode_title">Normal</string>
+    <string name="saving_dialog_default_string">Saving...</string>
+    <string name="shutter_type_photo">Picture</string>
+    <string name="shutter_type_video">Video</string>
+    <string name="video_recording_not_available">Please stop other recording applications before using video camera.</string>
+    <string name="video_bad_performance_auto_stop">Low memory,auto stop recording.</string>
+    <string name="video_bad_performance_drop_quality">Low memory,auto change quality.</string>
+    <string name="video_recording_error">Error during recording!</string>
+    <string name="video_reach_size_limit">Size limit reached.</string>
+    <string name="can_not_use_storage">SD Card not available</string>
+    <string name="storage_full">The default storage is full,please release some space or manage the storage options in settings</string>
+    <string name="cannot_connect_camera_new">Can\'t connect to the camera. Please make sure to close other apps that may use camera or flashlight.</string>
+    <string name="camera_disabled">Camera has been disabled because of security policies.</string>
+    <string name="dialog_ok">OK</string>
+    <!-- String for Thermal Throttle -->
+    <string name="pref_thermal_dialog_title">Warning</string>
+    <string name="pref_thermal_dialog_content_launch">Device temperature is too high,please use the camera later.</string>
+    <string name="pref_thermal_dialog_content">Device temperature is too high and camera will exit automatically in 30 seconds. Please try to use it later.</string>
+    <string name="pref_thermal_preview_toast">Touch screen to continue.</string>
+        <string name="multi_window_mode_toast_lct">"Camera do not support multi window mode"</string>
+    <string name="rotation_action">"Please turn the phone"</string>
+    <string name="rotation_purpose">"turn the phone to make front camera at the top to shoot the more beautiful you"</string>
+    <string name="rotation_button">"Got it"</string>	
+    <string name="hct_video_recording_error">The recording application is running in the background and cannot be vedio recording. Please turn off the recording and try again.</string>
+    <string name="pref_camera_zsd_default" translatable="false">off</string>
+    <string name="pref_camera_zsd_default_of_sub" translatable="false">off</string>
+    <string name="hct_under_water_tips">The function of touch screen is not allowed in this interface,press the power button to exit</string>
+    <string name="pref_camera_mirror_default" translatable="false">1</string>
+    <string name="pref_camera_ais_default" translatable="false">off</string>
+    <string name="pref_camera_ais_default_of_sub" translatable="false">off</string>
+    <string name="hct_bokeh_tip">"To ensure the shooting effect, please make sure the lens is not blocked"</string>
+    <string name="select_path_prompt">Select SD card storage failed</string>
+    <string name="flash_default_value" translatable="false">auto</string>
+    <string name="capture_complete_tips">Capture is completed and optimize the picture</string>
+    <string name="custome_preview_size" translatable="false"></string>
+    <string name="mode_vsdof_tips">The dual-camera mode can capture the background blur effect, and it is recommended that the camera and the subject be no more than 2 meters away.</string>
+    <string name="animation_time_of_capture" translatable="false">3000</string>
+    <string name="pro_focus_distance_configuration" translatable="false">7x7</string>
+    <string name="more_mode_name">More</string>
+    <string name="macro_lens_camera_toast">Please take the macro photos within 4cm distance.</string>
+    <string name="antiflicker_default_value" translatable="false">auto</string>
+    <!-- bv wuyonglin add for pro mode adpte A80Pro adjust focus preview do not have change 20200615 start-->
+    <string name="pro_focus_distance_configuration_a80_pro" translatable="false">9x5</string>
+    <!-- bv wuyonglin add for pro mode adpte A80Pro adjust focus preview do not have change 20200615 end-->
+
+    <string name="optimize_picture" translatable="false">Optimizing image</string>
+
+    <string name="video_file_name_format" translatable="false">&quot;&apos;VID&apos;_yyyyMMdd_HHmmss&quot;</string>
+    <string name="global_label">General</string>
+    <string name="advanced_label">Advanced</string>
+    <string name="mirror_summary">Only works when taking pictures with the front-facing camera</string>
+    <string name="restore_settings">Restore default settings</string>
+    <string name="restore_settings_message">Restore camera settings to default?</string>
+    <string name="detail_title">"Details"</string>
+    <string name="night_title">Night Scene </string>
+    <string name="video_title">Video</string>
+    <string name="photo_title">Photo</string>
+    <string name="beauty_title">Beauty</string>
+    <string name="prof_title">Professional</string>
+    <string name="w4800_title">4800W</string>
+    <string name="mono_title">Black &amp; White</string>
+    <string name="bokeh_title">Portrait</string>
+    <string name="bokehcolor_title">Portrait color retention</string>
+    <string name="biprotrait_title">Panoramic</string>
+    <string name="night_summary">After multi-frame synthesis, denoising, low-light HDR and other processing, the night scene photos become purer and brighter.</string>
+    <string name="video_summary">The camera will automatically adjust the exposure and color to make the recorded video more vivid. </string>
+    <string name="photo_summary">The camera will automatically adjust the exposure and color to take the best picture.</string>
+    <string name="beauty_summary">"Smooth Skin", "Whiten", "Slim Face" and other beauty effects can be applied to the portrait when shooting.</string>
+    <string name="prof_summary">Support manual adjustment of sensitivity, shutter speed, focus mode, and white balance to satisfy diversified and personalized shooting needs.</string>
+    <string name="w4800_summary">Higher resolution, sharper image (HDR and Night Scene are not available in this mode).</string>
+    <string name="mono_summary">Take real and natural black-and-white photos.</string>
+    <string name="bokeh_summary">Blur the background when taking portraits.</string>
+    <string name="bokehcolor_summary">Identify portrait in real-time when taking photos, and black-and-white background highlights the color of the portrait.</string>
+    <string name="biprotrait_summary">Support manual adjustment of ISO sensitivity, shutter, exposure compensation, focus mode, and white balance to satisfy diversified and personalized shooting needs. </string>
+
+    <string name="ais_summary">Effective when flashlight and HDR are both off</string>
+    <string name="quality_fhd_fps60">FHD(60 fps)</string>
+    <string name="slowmotion_mode_summary">The camera can shoot a high-speed video at 120fps and then replay the video at 30 fps, realizing 4 times slower playback to slow down the wonderful moments.</string>
+</resources>

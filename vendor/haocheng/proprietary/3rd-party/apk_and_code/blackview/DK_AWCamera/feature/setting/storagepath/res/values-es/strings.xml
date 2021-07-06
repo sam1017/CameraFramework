@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="storage_path_title">Calle de almacenamiento</string>
+    <string name="storage_path_internal">Almacenamiento interno</string>
+    <string name="storage_path_external">Tarjeta SD</string>
+    <string name="no_sdcard">No se ha detectado una tarjeta SD</string>
+</resources>

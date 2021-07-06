@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="accessibility_flash_on">flash on</string>
+    <string name="accessibility_flash_auto">flash auto</string>
+    <string name="accessibility_flash_off">flash off</string>
+    <string name="accessibility_flash_torch">flash torch</string>
+    <string name="flash_low_battery_warning">Flash is disabled by low battery</string>
+    <string name="flash_open_warning">Flash on</string>
+    <string name="flash_always_bright_warning">Flash is always on</string>
+</resources>

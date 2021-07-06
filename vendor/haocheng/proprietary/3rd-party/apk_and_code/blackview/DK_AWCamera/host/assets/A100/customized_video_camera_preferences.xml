@@ -1,0 +1,27 @@
+<CameraPreferences>
+    <Item>
+        <key>pref_live_hdr_config_key</key>
+        <defaultValue>{
+            "productName":"",
+
+            "backCameraId":0;
+            "photoSize":"",
+            "previewSize":"",
+
+            "Saturation":25,
+            "Contrast":0,
+
+            "DehazeEnable":false,
+            "DehazeLevel":0,
+            "DehazeWsat":0.005,
+            "DehazeBsat":0.00003,
+            "DehazeWsat_Night":0.00001,
+            "DehazeBsat_Night":0.001,
+
+            "noiseReductionMode":-1,
+            "edgeMode":-1,
+            "aeMeterMode":-1
+            }
+        </defaultValue>
+    </Item>
+</CameraPreferences>
